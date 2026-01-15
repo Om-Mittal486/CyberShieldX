@@ -9,16 +9,7 @@ def index():
 
     if request.method == "POST":
         message = request.form["message"]
-
-        # Simple default values (can improve later)
-        toxicity_score = 50
-        confidence = 80
-
-        result = analyze_message(
-            message,
-            toxicity_score,
-            confidence
-        )
+        result = analyze_message(message)
 
     return render_template("index.html", result=result)
 

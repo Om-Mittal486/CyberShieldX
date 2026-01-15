@@ -1,21 +1,17 @@
-import warnings
-warnings.filterwarnings("ignore", category=UserWarning)
-
 import joblib
 import re
 from scipy.sparse import hstack
 
 # ================================
-# Load Saved Components
+# Load trained components
 # ================================
 
 model = joblib.load("saved_model/cybershieldx_model.pkl")
 tfidf = joblib.load("saved_model/tfidf_vectorizer.pkl")
 scaler = joblib.load("saved_model/scaler.pkl")
-labels = joblib.load("saved_model/labels.pkl")
 
 # ================================
-# Text Cleaning (MUST MATCH TRAINING)
+# Text cleaning (same as training)
 # ================================
 
 def clean_text(text):
@@ -27,10 +23,40 @@ def clean_text(text):
     return text.strip()
 
 # ================================
-# Prediction Function
+# Dynamic scoring from text
 # ================================
 
-def analyze_message(message, toxicity_score, confidence, matched_keywords=""):
+def compute_scores_from_text(text):
+    text = text.lower()
+
+    high_risk_words = ["kill", "leak", "otp", "hack", "bomb", "die", "threat"]
+    harassment_words = ["idiot", "stupid", "useless", "dumb", "moron"]
+
+    score = 10
+    keywords = []
+
+    for w in high_risk_words:
+        if w in text:
+            score += 40
+            keywords.append(w)
+
+    for w in harassment_words:
+        if w in text:
+            score += 20
+            keywords.append(w)
+
+    score = min(score, 100)
+    confidence = min(60 + score // 2, 100)
+
+    return score, confidence, ",".join(keywords)
+
+# ================================
+# Final prediction function
+# ================================
+
+def analyze_message(message):
+    toxicity_score, confidence, matched_keywords = compute_scores_from_text(message)
+
     clean = clean_text(message)
     text_vec = tfidf.transform([clean])
 
@@ -44,18 +70,7 @@ def analyze_message(message, toxicity_score, confidence, matched_keywords=""):
 
     return {
         "predicted_label": prediction,
-        "confidence": round(float(prob), 2)
+        "confidence": round(float(prob), 2),
+        "toxicity_score": toxicity_score,
+        "matched_keywords": matched_keywords
     }
-
-# ================================
-# Test Loaded Model
-# ================================
-
-result = analyze_message(
-    "Send OTP or I will leak your photos",
-    toxicity_score=95,
-    confidence=96,
-    matched_keywords="otp,leak"
-)
-
-print(result)
