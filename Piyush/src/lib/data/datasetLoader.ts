@@ -112,7 +112,7 @@ export function extractKeywordsFromDataset(dataset: DatasetEntry[]): string[] {
         const words = messageText.toLowerCase().match(/\b\w{4,}\b/g) || [];
 
         // Add significant words (length > 3)
-        words.forEach(word => {
+        words.forEach((word: string) => {
             if (word.length > 3 && !['this', 'that', 'with', 'from', 'have'].includes(word)) {
                 keywords.add(word);
             }
