@@ -1,0 +1,3 @@
+{
+  "/api/analyze-image/route": "app/api/analyze-image/route.js"
+}
