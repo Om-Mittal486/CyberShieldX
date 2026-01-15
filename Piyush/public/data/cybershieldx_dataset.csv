@@ -1,0 +1,1201 @@
+message_id,message_text,toxicity_label,toxicity_score,confidence,crime_type,severity_level,legal_section,matched_keywords,scam_subtype
+1,"Hey, can you send me the notes from yesterday’s class?",Safe,2,96,None,None,None,,none
+2,Please share the assignment file when you get time.,Safe,3,95,None,None,None,,none
+3,You are annoying and wasting my time.,Mild Toxicity,15,72,Online Harassment,Low,IPC 509,annoying,none
+4,"Stop messaging me, you are stupid.",Mild Toxicity,18,75,Online Harassment,Low,IPC 509,stupid,none
+5,"You are dumb and useless, don’t text me again.",Harassment,35,82,Online Harassment,Medium,IPC 509,"dumb, useless",none
+6,"Everyone hates you, just disappear.",Harassment,40,84,Online Harassment,Medium,IPC 509,"hates, disappear",none
+7,Send me your bank OTP immediately.,High-Risk Threat,65,91,Account Hacking,High,IT Act 66,"otp, bank",otp_scam
+8,Give me your login details or your account will be hacked.,High-Risk Threat,72,93,Account Hacking,High,IT Act 66,"login, hacked",bank_impersonation
+9,Send money or I will leak your private photos.,High-Risk Threat,85,96,Blackmail / Extortion,Critical,IPC 384,"leak, photos, money",blackmail_extortion
+10,Do what I say or your videos will be made public.,High-Risk Threat,80,95,Blackmail / Extortion,Critical,IPC 384,"public, videos",blackmail_extortion
+11,"I know where you live, I will kill you.",High-Risk Threat,95,98,Criminal Threat,Critical,IPC 506,"kill, threaten",none
+12,"You will regret this, I’m coming for you.",High-Risk Threat,88,97,Criminal Threat,Critical,IPC 506,"regret, coming",none
+13,"Your account has suspicious activity, click this link now.",High-Risk Threat,45,86,Financial Fraud,High,IT Act 66,"account, suspicious, link",phishing
+14,Urgent! Verify your bank details to avoid suspension.,High-Risk Threat,50,88,Financial Fraud,High,IT Act 66,"bank, verify",bank_impersonation
+15,Can you please stop calling me repeatedly?,Safe,5,94,None,None,None,,none
+16,"I am not interested, please don’t message again.",Safe,4,93,None,None,None,,none
+17,You are really irritating and annoying.,Mild Toxicity,14,71,Online Harassment,Low,IPC 509,"irritating, annoying",none
+18,Why are you so stupid all the time?,Mild Toxicity,20,76,Online Harassment,Low,IPC 509,stupid,none
+19,"Nobody cares about you, just shut up.",Harassment,32,81,Online Harassment,Medium,IPC 509,"nobody, shut up",none
+20,You are worthless and a complete failure.,Harassment,38,83,Online Harassment,Medium,IPC 509,"worthless, failure",none
+21,Keep quiet or you will face consequences.,High-Risk Threat,45,86,Criminal Threat,High,IPC 506,consequences,none
+22,"If you don’t listen, things will get bad for you.",High-Risk Threat,48,87,Criminal Threat,High,IPC 506,"bad, listen",none
+23,Share your OTP now or your account will be locked.,High-Risk Threat,70,92,Account Hacking,High,IT Act 66,"otp, account",otp_scam
+24,Your bank account will be suspended if you don’t verify.,High-Risk Threat,75,94,Financial Fraud,High,IT Act 66,"bank, suspended, verify",bank_impersonation
+25,"Send ₹10,000 or your photos will go viral.",High-Risk Threat,88,97,Blackmail / Extortion,Critical,IPC 384,"send money, photos, viral",blackmail_extortion
+26,"I have your private videos, pay me or else.",High-Risk Threat,90,98,Blackmail / Extortion,Critical,IPC 384,"private videos, pay",blackmail_extortion
+27,I know your address and your family details.,High-Risk Threat,85,96,Criminal Threat,Critical,IPC 506,"address, family",none
+28,You think you can escape me? I will find you.,High-Risk Threat,92,98,Criminal Threat,Critical,IPC 506,"escape, find",none
+29,Click this link to secure your compromised account.,High-Risk Threat,42,85,Financial Fraud,High,IT Act 66,"click, link, account",phishing
+30,Urgent security alert: update password immediately.,High-Risk Threat,47,87,Financial Fraud,High,IT Act 66,"urgent, password",phishing
+31,"Stop acting smart, you are nothing.",Harassment,34,82,Online Harassment,Medium,IPC 509,"nothing, acting smart",none
+32,"You are a joke, everyone laughs at you.",Harassment,36,83,Online Harassment,Medium,IPC 509,"joke, laughs",none
+33,Give me your UPI pin or face serious trouble.,High-Risk Threat,78,95,Financial Fraud,Critical,IT Act 66,"upi, pin, trouble",upi_fraud
+34,Transfer money fast or I will ruin your life.,High-Risk Threat,89,97,Blackmail / Extortion,Critical,IPC 384,"transfer, ruin",blackmail_extortion
+35,"This is your final warning, comply now.",High-Risk Threat,80,96,Criminal Threat,High,IPC 506,final warning,none
+36,You better watch your back.,High-Risk Threat,83,96,Criminal Threat,High,IPC 506,watch your back,none
+37,Why are you so useless at everything?,Harassment,37,84,Online Harassment,Medium,IPC 509,useless,none
+38,"Stop bothering me, you creep.",Harassment,33,82,Online Harassment,Medium,IPC 509,creep,none
+39,"Your email has been compromised, reset credentials.",High-Risk Threat,44,86,Financial Fraud,High,IT Act 66,"email, compromised",phishing
+40,I will destroy your reputation online.,High-Risk Threat,86,97,Blackmail / Extortion,Critical,IPC 384,"destroy, reputation",blackmail_extortion
+41,"Hey, are you coming to the meeting today?",Safe,3,95,None,None,None,,none
+42,Please let me know once you receive the package.,Safe,4,94,None,None,None,,none
+43,"I already told you, stop texting me politely.",Safe,6,93,None,None,None,,none
+44,You are getting on my nerves.,Mild Toxicity,13,70,Online Harassment,Low,IPC 509,nerves,none
+45,Why are you always so annoying?,Mild Toxicity,16,73,Online Harassment,Low,IPC 509,annoying,none
+46,Stop being so dumb and careless.,Mild Toxicity,19,75,Online Harassment,Low,IPC 509,"dumb, careless",none
+47,You are absolutely useless at this job.,Harassment,34,82,Online Harassment,Medium,IPC 509,useless,none
+48,"No one likes you, just stay quiet.",Harassment,36,83,Online Harassment,Medium,IPC 509,"no one likes, quiet",none
+49,You better stop or you’ll regret it.,High-Risk Threat,42,86,Criminal Threat,High,IPC 506,regret,none
+50,This won’t end well if you keep ignoring me.,High-Risk Threat,44,87,Criminal Threat,High,IPC 506,won’t end well,none
+51,Share your OTP quickly to avoid service disruption.,High-Risk Threat,68,92,Account Hacking,High,IT Act 66,"otp, service",otp_scam
+52,Your card will be blocked if you don’t act now.,High-Risk Threat,72,94,Financial Fraud,High,IT Act 66,"card, blocked",bank_impersonation
+53,Send the money now or I will leak everything.,High-Risk Threat,85,97,Blackmail / Extortion,Critical,IPC 384,"send money, leak",blackmail_extortion
+54,I have screenshots that can destroy you.,High-Risk Threat,88,97,Blackmail / Extortion,Critical,IPC 384,"screenshots, destroy",blackmail_extortion
+55,I know where you study and where you live.,High-Risk Threat,90,98,Criminal Threat,Critical,IPC 506,"study, live",none
+56,You cannot hide from me for long.,High-Risk Threat,92,98,Criminal Threat,Critical,IPC 506,hide,none
+57,Click here to secure your wallet immediately.,High-Risk Threat,41,85,Financial Fraud,High,IT Act 66,"click, wallet",wallet_scam
+58,"Your account access is limited, verify identity.",High-Risk Threat,43,86,Financial Fraud,High,IT Act 66,"account, verify",phishing
+59,You are a complete idiot.,Harassment,33,81,Online Harassment,Medium,IPC 509,idiot,none
+60,Everyone laughs behind your back.,Harassment,35,83,Online Harassment,Medium,IPC 509,laughs,none
+61,Provide UPI pin to continue transaction.,High-Risk Threat,76,95,Financial Fraud,Critical,IT Act 66,"upi, pin",upi_fraud
+62,Transfer funds now to avoid legal action.,High-Risk Threat,82,96,Financial Fraud,Critical,IT Act 66,"transfer, funds",bank_impersonation
+63,Your secrets will be public if you disobey.,High-Risk Threat,87,97,Blackmail / Extortion,Critical,IPC 384,"secrets, public",blackmail_extortion
+64,I will make sure everyone knows your truth.,High-Risk Threat,86,97,Blackmail / Extortion,Critical,IPC 384,everyone knows,blackmail_extortion
+65,You should be ashamed of yourself.,Mild Toxicity,18,74,Online Harassment,Low,IPC 509,ashamed,none
+66,Stop acting like a clown.,Harassment,31,80,Online Harassment,Medium,IPC 509,clown,none
+67,Final notice: update bank details immediately.,High-Risk Threat,79,96,Financial Fraud,Critical,IT Act 66,"final notice, bank",bank_impersonation
+68,Fail to comply and face serious consequences.,High-Risk Threat,84,96,Criminal Threat,High,IPC 506,serious consequences,none
+69,I will come after you if you report this.,High-Risk Threat,91,98,Criminal Threat,Critical,IPC 506,come after,none
+70,You think police can save you?,High-Risk Threat,89,97,Criminal Threat,Critical,IPC 506,police,none
+71,Please stop spreading false rumors.,Safe,5,94,None,None,None,,none
+72,Let me know if you need help with the project.,Safe,3,96,None,None,None,,none
+73,You are such a disappointment.,Harassment,34,82,Online Harassment,Medium,IPC 509,disappointment,none
+74,Nobody will ever respect you.,Harassment,38,84,Online Harassment,Medium,IPC 509,"nobody, respect",none
+75,Urgent alert: suspicious login detected.,High-Risk Threat,46,87,Financial Fraud,High,IT Act 66,"urgent, login",phishing
+76,Verify your account to avoid permanent ban.,High-Risk Threat,48,88,Financial Fraud,High,IT Act 66,"verify, ban",phishing
+77,Pay now or face the consequences.,High-Risk Threat,83,96,Blackmail / Extortion,Critical,IPC 384,"pay now, consequences",blackmail_extortion
+78,Your images will be shared publicly.,High-Risk Threat,86,97,Blackmail / Extortion,Critical,IPC 384,"images, shared",blackmail_extortion
+79,I will ruin everything you care about.,High-Risk Threat,90,98,Criminal Threat,Critical,IPC 506,ruin,none
+80,You are constantly messing things up.,Mild Toxicity,17,73,Online Harassment,Low,IPC 509,messing up,none
+81,Stop embarrassing yourself.,Mild Toxicity,15,72,Online Harassment,Low,IPC 509,embarrassing,none
+82,This is your last chance.,High-Risk Threat,78,95,Criminal Threat,High,IPC 506,last chance,none
+83,Do as told or suffer the outcome.,High-Risk Threat,85,97,Criminal Threat,Critical,IPC 506,suffer,none
+84,I will post everything online.,High-Risk Threat,88,97,Blackmail / Extortion,Critical,IPC 384,post online,blackmail_extortion
+85,Confirm your payment credentials now.,High-Risk Threat,74,94,Financial Fraud,High,IT Act 66,"payment, credentials",phishing
+86,You are unbearable to deal with.,Harassment,32,81,Online Harassment,Medium,IPC 509,unbearable,none
+87,Nobody wants you around.,Harassment,35,83,Online Harassment,Medium,IPC 509,nobody wants,none
+88,Your future will be destroyed.,High-Risk Threat,91,98,Criminal Threat,Critical,IPC 506,destroyed,none
+89,Update KYC immediately to avoid service halt.,High-Risk Threat,77,95,Financial Fraud,Critical,IT Act 66,"kyc, service",bank_impersonation
+90,This conversation will cost you dearly.,High-Risk Threat,87,97,Criminal Threat,Critical,IPC 506,cost you,none
+91,Please update me once the task is completed.,Safe,3,96,None,None,None,,none
+92,Let’s reschedule the call for tomorrow.,Safe,4,95,None,None,None,,none
+93,Kindly avoid messaging me during work hours.,Safe,5,94,None,None,None,,none
+94,You are being unnecessarily rude.,Mild Toxicity,14,71,Online Harassment,Low,IPC 509,rude,none
+95,This behavior is quite annoying.,Mild Toxicity,16,73,Online Harassment,Low,IPC 509,annoying,none
+96,Stop acting foolish all the time.,Mild Toxicity,18,75,Online Harassment,Low,IPC 509,foolish,none
+97,You contribute nothing useful here.,Harassment,33,81,Online Harassment,Medium,IPC 509,nothing useful,none
+98,Everyone thinks you are incompetent.,Harassment,36,83,Online Harassment,Medium,IPC 509,incompetent,none
+99,"You should just quit, you are pathetic.",Harassment,39,85,Online Harassment,Medium,IPC 509,"quit, pathetic",none
+100,Do not test my patience again.,High-Risk Threat,41,86,Criminal Threat,High,IPC 506,patience,none
+101,Ignore me again and face the consequences.,High-Risk Threat,44,87,Criminal Threat,High,IPC 506,consequences,none
+102,Share your OTP or your account will be blocked.,High-Risk Threat,70,93,Account Hacking,High,IT Act 66,"otp, blocked",otp_scam
+103,Verify your bank details to avoid suspension.,High-Risk Threat,74,94,Financial Fraud,High,IT Act 66,"bank, verify",bank_impersonation
+104,Confirm your card information immediately.,High-Risk Threat,76,95,Financial Fraud,High,IT Act 66,"card, confirm",bank_impersonation
+105,Send the payment now or your data will be leaked.,High-Risk Threat,86,97,Blackmail / Extortion,Critical,IPC 384,"payment, leaked",blackmail_extortion
+106,I will post your private chats publicly.,High-Risk Threat,88,97,Blackmail / Extortion,Critical,IPC 384,"post, private",blackmail_extortion
+107,You cannot escape what’s coming.,High-Risk Threat,90,98,Criminal Threat,Critical,IPC 506,escape,none
+108,I know your daily routine and location.,High-Risk Threat,92,98,Criminal Threat,Critical,IPC 506,"routine, location",none
+109,Click the link to secure your compromised wallet.,High-Risk Threat,43,86,Financial Fraud,High,IT Act 66,"click, wallet",wallet_scam
+110,Update your KYC to restore services.,High-Risk Threat,45,87,Financial Fraud,High,IT Act 66,"kyc, restore",bank_impersonation
+111,You are a complete waste of time.,Harassment,35,82,Online Harassment,Medium,IPC 509,waste,none
+112,Nobody respects you here.,Harassment,34,82,Online Harassment,Medium,IPC 509,"nobody, respect",none
+113,Stop embarrassing yourself in public.,Mild Toxicity,17,74,Online Harassment,Low,IPC 509,embarrassing,none
+114,You should be ashamed for acting like this.,Mild Toxicity,19,76,Online Harassment,Low,IPC 509,ashamed,none
+115,"Your account shows unusual activity, act now.",High-Risk Threat,47,88,Financial Fraud,High,IT Act 66,unusual activity,phishing
+116,Failure to comply may lead to legal action.,High-Risk Threat,80,96,Criminal Threat,High,IPC 506,legal action,none
+117,Pay immediately or suffer serious loss.,High-Risk Threat,83,96,Blackmail / Extortion,Critical,IPC 384,"pay, loss",blackmail_extortion
+118,Your images will be shared if you delay.,High-Risk Threat,85,97,Blackmail / Extortion,Critical,IPC 384,"images, shared",blackmail_extortion
+119,I will ruin your academic career.,High-Risk Threat,89,97,Criminal Threat,Critical,IPC 506,"ruin, career",none
+120,You have no idea who you are dealing with.,High-Risk Threat,87,97,Criminal Threat,Critical,IPC 506,no idea,none
+121,Please stop contacting me regarding this.,Safe,5,94,None,None,None,,none
+122,Let me know if the issue is resolved.,Safe,4,95,None,None,None,,none
+123,You are frustrating to work with.,Mild Toxicity,15,72,Online Harassment,Low,IPC 509,frustrating,none
+124,This conversation is pointless.,Mild Toxicity,16,73,Online Harassment,Low,IPC 509,pointless,none
+125,You have failed miserably at this.,Harassment,37,84,Online Harassment,Medium,IPC 509,failed,none
+126,Everyone is disappointed because of you.,Harassment,38,85,Online Harassment,Medium,IPC 509,disappointed,none
+127,Final reminder: verify your payment details.,High-Risk Threat,78,95,Financial Fraud,Critical,IT Act 66,final reminder,phishing
+128,Transfer the amount now.,High-Risk Threat,75,94,Financial Fraud,High,IT Act 66,transfer,bank_impersonation
+129,Your secrets will not stay hidden for long.,High-Risk Threat,86,97,Blackmail / Extortion,Critical,IPC 384,secrets,blackmail_extortion
+130,I will expose everything if you don’t comply.,High-Risk Threat,88,97,Blackmail / Extortion,Critical,IPC 384,expose,blackmail_extortion
+131,Watch your actions carefully.,High-Risk Threat,42,86,Criminal Threat,High,IPC 506,watch,none
+132,This is your last warning.,High-Risk Threat,82,96,Criminal Threat,High,IPC 506,last warning,none
+133,Stop wasting everyone’s time.,Harassment,33,81,Online Harassment,Medium,IPC 509,wasting time,none
+134,You are unbearable to interact with.,Harassment,35,83,Online Harassment,Medium,IPC 509,unbearable,none
+135,Confirm UPI pin to proceed.,High-Risk Threat,77,95,Financial Fraud,Critical,IT Act 66,"upi, pin",upi_fraud
+136,Your service will be terminated today.,High-Risk Threat,79,96,Financial Fraud,High,IT Act 66,terminated,utility_scam
+137,I will make sure you regret this.,High-Risk Threat,90,98,Criminal Threat,Critical,IPC 506,regret,none
+138,No one will help you once this is out.,High-Risk Threat,87,97,Blackmail / Extortion,Critical,IPC 384,no one help,blackmail_extortion
+139,This mistake will cost you everything.,High-Risk Threat,91,98,Criminal Threat,Critical,IPC 506,cost everything,none
+140,You are incapable of doing anything right.,Harassment,36,84,Online Harassment,Medium,IPC 509,incapable,none
+141,You are a disgusting piece of trash.,Harassment,40,86,Online Harassment,Medium,IPC 509,"disgusting, trash",none
+142,"Shut the hell up, nobody wants you here.",Harassment,42,87,Online Harassment,Medium,IPC 509,"shut up, nobody",none
+143,You are a pathetic loser with no future.,Harassment,45,88,Online Harassment,Medium,IPC 509,"pathetic, loser",none
+144,You are dumb as hell and completely useless.,Harassment,47,89,Online Harassment,Medium,IPC 509,"dumb, useless",none
+145,Everyone would be better off if you disappeared.,High-Risk Threat,65,93,Criminal Threat,High,IPC 506,disappeared,none
+146,You are a worthless idiot who should stay silent.,Harassment,44,88,Online Harassment,Medium,IPC 509,"worthless, idiot",none
+147,I swear you are the biggest mistake ever.,Harassment,46,89,Online Harassment,Medium,IPC 509,mistake,none
+148,"Stop existing, you absolute failure.",High-Risk Threat,68,94,Criminal Threat,High,IPC 506,stop existing,none
+149,You piss me off every single time you talk.,Harassment,43,87,Online Harassment,Medium,IPC 509,piss off,none
+150,You are a waste of oxygen.,Harassment,45,88,Online Harassment,Medium,IPC 509,waste,none
+151,Send the money now or I’ll ruin your life online.,High-Risk Threat,88,97,Blackmail / Extortion,Critical,IPC 384,"send money, ruin",blackmail_extortion
+152,Pay up fast or your private pics go public.,High-Risk Threat,90,98,Blackmail / Extortion,Critical,IPC 384,"pay, pics",blackmail_extortion
+153,Give me your OTP or your account is gone.,High-Risk Threat,75,95,Account Hacking,High,IT Act 66,"otp, account",otp_scam
+154,Share your bank details unless you want trouble.,High-Risk Threat,78,95,Financial Fraud,High,IT Act 66,"bank, trouble",bank_impersonation
+155,I know where you live and I’m not bluffing.,High-Risk Threat,92,98,Criminal Threat,Critical,IPC 506,know where you live,none
+156,"You should be scared, I’m watching everything.",High-Risk Threat,94,98,Criminal Threat,Critical,IPC 506,"scared, watching",none
+157,I’ll destroy your reputation and enjoy it.,High-Risk Threat,89,97,Blackmail / Extortion,Critical,IPC 384,destroy reputation,blackmail_extortion
+158,"Your secrets won’t stay hidden, idiot.",High-Risk Threat,85,96,Blackmail / Extortion,Critical,IPC 384,"secrets, idiot",blackmail_extortion
+159,Click the damn link or lose your account.,High-Risk Threat,74,94,Financial Fraud,High,IT Act 66,"click, lose account",phishing
+160,Update KYC now or your money is frozen.,High-Risk Threat,77,95,Financial Fraud,High,IT Act 66,"kyc, frozen",bank_impersonation
+161,You are a miserable excuse for a human.,Harassment,46,89,Online Harassment,Medium,IPC 509,miserable,none
+162,Nobody respects you because you’re trash.,Harassment,44,88,Online Harassment,Medium,IPC 509,"nobody, trash",none
+163,You are embarrassing and should shut up forever.,Harassment,48,90,Online Harassment,Medium,IPC 509,"embarrassing, shut up",none
+164,You completely screw up everything you touch.,Harassment,45,88,Online Harassment,Medium,IPC 509,screw up,none
+165,"This is your final warning, don’t be stupid.",High-Risk Threat,82,96,Criminal Threat,High,IPC 506,final warning,none
+166,Ignore me again and you’re done.,High-Risk Threat,85,97,Criminal Threat,Critical,IPC 506,you’re done,none
+167,I’ll make sure your life becomes hell.,High-Risk Threat,90,98,Criminal Threat,Critical,IPC 506,life hell,none
+168,Send payment now or suffer badly.,High-Risk Threat,84,96,Blackmail / Extortion,Critical,IPC 384,send payment,blackmail_extortion
+169,Your photos will be uploaded everywhere.,High-Risk Threat,88,97,Blackmail / Extortion,Critical,IPC 384,photos uploaded,blackmail_extortion
+170,Transfer the cash unless you want chaos.,High-Risk Threat,86,97,Financial Fraud,Critical,IT Act 66,transfer cash,bank_impersonation
+171,You are absolutely brain-dead.,Harassment,43,87,Online Harassment,Medium,IPC 509,brain-dead,none
+172,I can’t stand your stupid face anymore.,Harassment,44,88,Online Harassment,Medium,IPC 509,stupid,none
+173,You deserve every bad thing coming to you.,High-Risk Threat,70,94,Criminal Threat,High,IPC 506,bad things,none
+174,You should be terrified right now.,High-Risk Threat,88,97,Criminal Threat,Critical,IPC 506,terrified,none
+175,"Confirm your card details now, idiot.",High-Risk Threat,76,95,Financial Fraud,High,IT Act 66,card details,bank_impersonation
+176,Your account will be destroyed today.,High-Risk Threat,80,96,Account Hacking,High,IT Act 66,account destroyed,account_takeover
+177,I’ll leak everything and laugh.,High-Risk Threat,87,97,Blackmail / Extortion,Critical,IPC 384,leak everything,blackmail_extortion
+178,No one will save you once I start.,High-Risk Threat,92,98,Criminal Threat,Critical,IPC 506,no one save,none
+179,You’re nothing but a failure.,Harassment,41,86,Online Harassment,Medium,IPC 509,failure,none
+180,Stop wasting oxygen and space.,Harassment,45,88,Online Harassment,Medium,IPC 509,wasting oxygen,none
+181,Pay me now or regret being born.,High-Risk Threat,93,98,Criminal Threat,Critical,IPC 506,regret,none
+182,Your entire life will collapse.,High-Risk Threat,91,98,Criminal Threat,Critical,IPC 506,life collapse,none
+183,You are trash and always will be.,Harassment,42,87,Online Harassment,Medium,IPC 509,trash,none
+184,Give OTP fast or you’re finished.,High-Risk Threat,79,96,Account Hacking,High,IT Act 66,otp,otp_scam
+185,Your data will be sold online.,High-Risk Threat,85,97,Financial Fraud,Critical,IT Act 66,data sold,data_breach_scam
+186,I will expose you everywhere.,High-Risk Threat,88,97,Blackmail / Extortion,Critical,IPC 384,expose,blackmail_extortion
+187,You are a complete disgrace.,Harassment,40,86,Online Harassment,Medium,IPC 509,disgrace,none
+188,You should crawl back into nothingness.,High-Risk Threat,72,94,Criminal Threat,High,IPC 506,crawl,none
+189,This will end very badly for you.,High-Risk Threat,89,97,Criminal Threat,Critical,IPC 506,end badly,none
+190,Your suffering will be worth it.,High-Risk Threat,90,98,Criminal Threat,Critical,IPC 506,suffering,none
+191,"Madarchod saala, teri aukaat kya hai?",Harassment,92,94,Online Harassment,High,IPC 504 + 509,"madarchod, saala, aukaat",none
+192,Bhenchod tera muh band kar madarchod,Harassment,95,97,Online Harassment,High,IPC 294 + 509,"bhenchod, madarchod",none
+193,"Kutiya ki paidayish, ghar jaake bhaunk",Harassment,88,92,Online Harassment,High,IPC 509,"kutiya, bhaunk",none
+194,"Harami, teri maut aayegi jaldi",High-Risk Threat,85,89,Criminal Threat,High,IPC 506,"harami, maut",none
+195,"Chutiye, dimag kharab hai kya tera?",Harassment,78,85,Online Harassment,Medium,IPC 504,"chutiye, dimag kharab",none
+196,"Landu sala, tujhe maar maar ke thok denge",High-Risk Threat,93,96,Criminal Threat,Critical,IPC 506 + 323,"landu, maar, thok",none
+197,Teri behen ko bhi pel denge saale,High-Risk Threat,96,98,Criminal Threat,Critical,IPC 354A + 506,"behen, pel, saale",none
+198,"Gandu, gand mara hua lagta hai tu",Harassment,89,93,Online Harassment,High,IPC 504,"gandu, gand mara",none
+199,"Suwar ki nasal, tujh jaisa ganda insaan nahi dekha",Harassment,82,88,Online Harassment,High,IPC 509,"suwar, ganda",none
+200,"Mkc teri, bhadwe jaisa comment mat kar",Harassment,87,91,Online Harassment,High,IPC 504,"mkc, bhadwe",none
+201,Teri maa ki choot mein bomb phod dunga,High-Risk Threat,97,99,Criminal Threat,Critical,IPC 506 + 294 + IT 67,"maa ki choot, bomb",none
+202,"Chutiya banaya tune mujhe, ab teri wat laga dunga",High-Risk Threat,84,90,Criminal Threat,Critical,IPC 506,"chutiya, wat laga",none
+203,"Randibaaz harami, gali mein nanga kar denge",High-Risk Threat,91,95,Criminal Threat,Critical,IPC 509 + 506,"randibaaz, nanga",none
+204,"BC tera baap hu mai, respect de warna maarunga",High-Risk Threat,86,92,Criminal Threat,Critical,IPC 504 + 506,"BC, baap, maarunga",none
+205,Teri aukaat toilet saaf karne ki bhi nahi,High-Risk Threat,79,87,Criminal Threat,Critical,IPC 509,"aukaat, toilet saaf",none
+206,"Lavde ke baal, bandar jaisa dikhta hai tu",High-Risk Threat,81,88,Criminal Threat,Critical,IPC 509,"lavde, bandar",none
+207,Teri zindagi barbaad kar dunga haramkhor,High-Risk Threat,83,90,Criminal Threat,Critical,IPC 506,"barbaad, haramkhor",none
+208,Chodu logon ke liye comment karta hai tu?,High-Risk Threat,90,94,Criminal Threat,Critical,IPC 509 + IT 67,chodu,none
+209,"Bhosdike, tujhe pel ke rakh denge",High-Risk Threat,94,97,Criminal Threat,Critical,IPC 506 + 354A,"bhosdike, pel",none
+210,Teri maa randi thi kya itna ganda muh?,High-Risk Threat,92,95,Criminal Threat,Critical,IPC 504 + 509,"maa randi, ganda muh",none
+211,Teri maa ki bhosdi ko petrol daal ke aag laga dunga aur teri behen ko uski laash pe thokunga madarchod!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 302 + 354A + 506 + 294,"bhosdi ko petrol, aag laga, behen ko laash pe thok",none
+212,Bhenchod teri puri family ko zinda dafn kar dunga aur teri maa ki chut se mitti nikaal ke khaunga!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 302 + 506 + 294,"bhenchod, zinda dafn, maa ki chut se mitti khaunga",none
+213,"Gandu ke pille, teri gand mein acid daal ke andar tak jala dunga phir lund ghusa ke hasunga!",High-Risk Threat,98,99,Criminal Threat,Critical,IPC 326A + 377 + 506,"gandu, acid daal, lund ghusa",none
+214,Teri behen ko 50 kutte se chudwa ke pregnant karwa dunga aur delivery live stream karunga randi ki aulaad!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 377 + 294 + IT 67 + 506,"behen ko kutte se chudwa, live stream, randi ki aulaad",none
+215,"Chutiye harami, teri maa ko helicopter se latka ke 1000 logo ke saamne gangrape karwaunga!",High-Risk Threat,99,99,Criminal Threat,Critical,IPC 376D + 506 + 354A,"maa ko gangrape, helicopter se latka",none
+216,Teri maa ki chut mein current daal ke bijli se jhatka dunga aur teri behen ko usi current se chodoonga!,High-Risk Threat,98,99,Criminal Threat,Critical,IPC 506 + 354A + 294,"maa ki chut mein current, jhatka, behen ko chodoonga",none
+217,Bhosdike teri khandan ki saari auraton ko sadak pe nanga kar ke kutte se chudwa ke video banaunga!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 509 + 377 + 294 + IT 67,"bhosdike, nanga kar, kutte se chudwa, video",none
+218,Tujhe zinda kaat ke tukde tukde kar dunga aur teri maa ko har tukda khila ke bolunga 'beta kha le'!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 302 + 506 + 294,"zinda kaat, tukde, maa ko khila",none
+219,Madarchod teri maa ko bomb se udaa ke uske tukdon ko teri behen ki chut mein ghusa dunga!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 307 + 376 + 506 + 294,"madarchod, bomb se udaa, behen ki chut mein ghusa",none
+220,Madarchod teri maa ki bhosdi mein bhadwe ka lund daal ke blast kar dunga!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 506 + 354A + 294 + IT 67,"madarchod, bhosdi, bhadwe, lund, blast",none
+221,Bhenchod teri behen ko 100 lund wale gangbang karwa ke video viral kar dunga randi ki nasal!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 376D + 506 + IT 67,"bhenchod, behen ko gangbang, randi, viral",none
+222,Teri maa ki chut mein aag laga ke jalaa dunga harami kutte ke bachche!,High-Risk Threat,98,99,Criminal Threat,Critical,IPC 506 + 294,"maa ki chut, jalaa dunga, kutte ke bachche",none
+223,Gand marwa ke aaya hai kya lavde? Teri gand faad ke bhosda bana dunga!,High-Risk Threat,97,99,Criminal Threat,Critical,IPC 377 + 506,"gand marwa, gand faad, bhosda",none
+224,Chutiye teri maa ko sadak pe nanga chod ke kutte se chudwaunga!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 294 + 377 + 506,"maa ko nanga chod, kutte se chudwaunga",none
+225,Bhosdike teri puri khandan ki behno ko pel ke pregnant kar dunga saalon!,High-Risk Threat,98,99,Criminal Threat,Critical,IPC 376 + 506,"bhosdike, khandan ki behno ko pel, pregnant",none
+226,"Teri maa randi, tera baap bhadwa, tu gandu ka gand ka keeda hai!",High-Risk Threat,96,98,Criminal Threat,Critical,IPC 504 + 509,"maa randi, baap bhadwa, gandu, keeda",none
+227,Tujhe zinda jala ke raakh bana dunga aur teri maa us raakh se apni chut saaf karegi!,High-Risk Threat,97,99,Criminal Threat,Critical,IPC 506 + 307,"zinda jala, raakh, chut saaf",none
+228,"Chut marne wala harami, teri behen ko blue film mein hero banake 50 crore kamwaunga!",High-Risk Threat,98,99,Criminal Threat,Critical,IPC 354C + 506 + IT 67,"chut marne, behen ko blue film",none
+229,Teri maa ki bhosdi ko bomb se udaa dunga aur tujhe uske tukdon se khelne dunga!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 506 + 307 + 294,"bhosdi ko bomb, udaa dunga",none
+230,"Randwa ke aulaad, teri zindagi barbaad kar ke tujhe sadak pe bheek mangwaunga!",High-Risk Threat,95,98,Criminal Threat,Critical,IPC 506,"randwa, barbaad, bheek",none
+231,Teri behen ki chut mein chili powder daal ke jala dunga phir video bana ke upload kar dunga!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 354A + 506 + IT 67,"chut mein chili powder, jala dunga, upload",none
+232,"Bhadwe ki nasal, tujhe kutte ke saamne nanga kar ke gaand marwaunga!",High-Risk Threat,98,99,Criminal Threat,Critical,IPC 509 + 377 + 506,"bhadwe, nanga, gaand marwaunga",none
+233,Teri maa ko hotel mein 1000 logo se chudwa ke prostitute bana dunga saale!,High-Risk Threat,98,99,Criminal Threat,Critical,IPC 376 + 506,"maa ko chudwa, prostitute",none
+234,"Gandu suar ke bachche, teri gand mein mirchi daal ke lund ghused dunga!",High-Risk Threat,97,99,Criminal Threat,Critical,IPC 377 + 506,"gandu, mirchi, lund ghused",none
+235,Teri puri family ko maar ke laashon se tera ghar saja dunga madarchod!,High-Risk Threat,98,99,Criminal Threat,Critical,IPC 302 + 506,"family ko maar, laashon se saja",none
+236,"Chodu harami, teri maa ki chut ko chain-saw se kaat ke tujhe khila dunga!",High-Risk Threat,99,99,Criminal Threat,Critical,IPC 506 + 307,"maa ki chut, chain-saw, khila dunga",none
+237,Teri behen ko pregnant kar ke abortion karwa ke video viral kar dunga kutiya!,High-Risk Threat,98,99,Criminal Threat,Critical,IPC 376 + 506 + IT 67,"behen ko pregnant, abortion, viral",none
+238,Tujhe acid daal ke tera chehra jala dunga aur teri maa ko dikhake hasunga!,High-Risk Threat,97,99,Criminal Threat,Critical,IPC 326A + 506,"acid daal, chehra jala",none
+239,"Bhen ke lode, teri maa ko sadak pe kutte ke saath chudwa ke live stream karunga!",High-Risk Threat,99,99,Criminal Threat,Critical,IPC 294 + 377 + IT 67,"bhen ke lode, kutte ke saath, live stream",none
+240,Teri maa ki bhosdi mein rocket daal ke space mein bhej dunga randi ke pille!,High-Risk Threat,96,98,Criminal Threat,Critical,IPC 506 + 294,"bhosdi mein rocket, randi ke pille",none
+241,I'll fuck your mom's corpse after I slit her throat you worthless piece of shit!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 302 + 354A + 506,"fuck your mom's corpse, slit her throat",none
+242,Your sister’s getting gangbanged by 20 dogs on live stream while you watch you pathetic cuck!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 377 + 294 + IT 67 + 506,"gangbanged by dogs, live stream, cuck",none
+243,I’ll pour gasoline down your mother’s cunt and light her up like a fucking bonfire!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 302 + 326A + 506 + 294,"gasoline down cunt, light her up",none
+244,Your whole family’s getting chainsawed into pieces and I’ll feed the chunks to your sister’s pussy!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 302 + 376 + 506,"chainsawed, feed to pussy",none
+245,I’ll shove a live grenade up your mom’s asshole and blow her guts across the room!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 307 + 506 + 294,"grenade up asshole, blow her guts",none
+246,Your sister will be pregnant with triplets from horse cock before I leak the video everywhere!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 377 + 354C + IT 67 + 506,"horse cock, pregnant, leak video",none
+247,I’ll acid-bath your face then fuck the melted holes while your mom screams!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 326A + 376 + 506,"acid-bath, fuck the melted holes",none
+248,Your mom’s getting turned into a human urinal at a truck stop for a month straight!,High-Risk Threat,98,99,Criminal Threat,Critical,IPC 509 + 376 + 506,"human urinal, truck stop",none
+249,"I’ll cut your dick off, feed it to your sister, then skull-fuck her with the bloody stump!",High-Risk Threat,99,99,Criminal Threat,Critical,IPC 376 + 302 + 506,"cut your dick off, skull-fuck",none
+250,Your entire bloodline gets executed and I’ll rape the corpses in front of your burning house!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 302 + 354A + 506,"rape the corpses, burning house",none
+251,I’ll electrocute your mom’s clit until she pisses blood then fuck her while she convulses!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 326A + 376 + 506,"electrocute clit, pisses blood",none
+252,Your sister’s holes are getting filled with broken glass then I’ll pound her till she bleeds out!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 376 + 326A + 506,"broken glass, bleed out",none
+253,I’ll tie your mom to train tracks and let the train fuck her to pieces while I film it!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 302 + 506 + IT 67,"train fuck her to pieces, film",none
+254,Your family gets skinned alive and I’ll wear their faces while fucking your sister’s corpse!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 302 + 354A + 506,"skinned alive, wear faces, fuck corpse",none
+255,I’ll force your mom to eat her own chopped-off tits before I blow her brains out!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 326A + 302 + 506,"eat own tits, blow brains",none
+256,Your sister will be sold to a brothel where 100 men a day rip her apart!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 370 + 376 + 506,"sold to brothel, rip her apart",none
+257,I’ll drill holes in your mom’s skull and fuck the brain matter out of her head!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 302 + 376 + 506,"drill holes in skull, fuck brain matter",none
+258,Your whole family gets crucified then set on fire while I piss on the flames!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 302 + 326A + 506,"crucified, set on fire, piss on flames",none
+259,I’ll impregnate your sister with a pig then cut the freak baby out live on stream!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 377 + 376 + IT 67 + 506,"impregnate with pig, cut baby out",none
+260,Your mom’s getting her intestines pulled out through her cunt then used as a jump rope!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 326A + 302 + 506,"intestines through cunt, jump rope",none
+261,I’ll make your sister drink bleach then throat-fuck her while she chokes to death!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 302 + 376 + 506,"drink bleach, throat-fuck",none
+262,Your family’s heads will be on spikes outside my house while I fuck their eye sockets!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 302 + 354A + 506,"heads on spikes, fuck eye sockets",none
+263,I’ll shove razor blades up your mom’s ass then make her shit them out one by one!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 326A + 506,"razor blades up ass, shit them out",none
+264,Your sister gets turned into a blow-up doll for a prison gangbang marathon!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 376D + 506,"blow-up doll, prison gangbang",none
+265,I’ll melt your mom’s face with a blowtorch then skull-fuck the charred skull!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 326A + 302 + 376,"melt face, skull-fuck charred skull",none
+266,Your entire family gets fed into a woodchipper feet-first while I jerk off to the screams!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 302 + 506,"woodchipper feet-first, jerk off",none
+267,I’ll force your sister to fuck her own mother’s corpse with a strap-on before I kill her!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 354A + 302 + 506,"fuck mother’s corpse, strap-on",none
+268,Your mom’s cunt gets filled with fire ants then sewn shut while she screams!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 326A + 506,"fire ants, sewn shut",none
+269,I’ll nail your sister’s tits to a wall and use her as a human dartboard!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 326A + 506,"nail tits, human dartboard",none
+270,Your family gets buried alive in a septic tank full of shit and I’ll piss on the dirt!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 302 + 506,"buried alive, septic tank",none
+271,I’ll cut your mom open like a fish and fuck the gaping stomach wound!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 376 + 326A + 506,"cut open, fuck stomach wound",none
+272,Your sister’s getting drowned in cum from 500 strangers then revived to do it again!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 376D + 506,"drowned in cum, revived",none
+273,I’ll freeze your mom’s body then shatter it with a sledgehammer and fuck the shards!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 302 + 376 + 506,"freeze body, shatter, fuck shards",none
+274,Your whole bloodline gets genocided and I’ll turn the mass grave into my personal toilet!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 302 + 506,"genocided, mass grave toilet",none
+275,I’ll make your sister eat her own eyeballs then blind-fuck her bleeding sockets!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 326A + 376 + 506,"eat eyeballs, blind-fuck sockets",none
+276,Your mom gets strapped to a rocket and launched while I fuck the exhaust!,High-Risk Threat,98,99,Criminal Threat,Critical,IPC 302 + 506,"strapped to rocket, fuck exhaust",none
+277,I’ll rip your sister’s womb out and wear it as a hat while I skull-fuck her!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 326A + 376 + 506,"rip womb out, wear as hat",none
+278,Your family gets fed alive to pigs and I’ll fuck the pigs after they digest you!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 302 + 377 + 506,"fed to pigs, fuck the pigs",none
+279,I’ll boil your mom alive then drink the soup while jerking off to her screams!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 302 + 506,"boil alive, drink the soup",none
+280,Your sister’s getting turned into a human centipede with your mom and dad!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 326A + 506,human centipede,none
+281,I’ll hammer nails into your mom’s clit then pull them out with my teeth!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 326A + 506,"nails into clit, pull with teeth",none
+282,Your family gets crucified upside-down and I’ll piss gasoline on them before lighting!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 302 + 326A + 506,"crucified upside-down, piss gasoline",none
+283,I’ll force your sister to castrate herself then fuck the bleeding stump!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 376 + 326A + 506,"castrate herself, fuck stump",none
+284,Your mom’s head gets mounted on my wall while I fuck her decapitated body!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 302 + 376 + 506,"head mounted, fuck decapitated body",none
+285,I’ll make your entire family eat each other’s chopped-off limbs!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 302 + 506,eat chopped-off limbs,none
+286,Your sister gets impaled on a stake then I’ll fuck the wound while she dies!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 302 + 376 + 506,"impaled on stake, fuck the wound",none
+287,I’ll drown your mom in a vat of acid then fuck the dissolved remains!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 302 + 326A + 376,"drown in acid, fuck remains",none
+288,Your family gets turned into ground beef and I’ll feed it back to your sister!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 302 + 506,"ground beef, feed back",none
+289,I’ll sew your sister’s mouth to your mom’s asshole then force them to shit in each other!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 326A + 509 + 506,"mouth to asshole, shit in each other",none
+290,Your mom gets her bones broken one by one then I’ll fuck the shattered body!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 326A + 376 + 506,"bones broken, fuck shattered body",none
+291,I’ll make your sister give birth to a dead baby then fuck the afterbirth!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 376 + 506,"birth to dead baby, fuck afterbirth",none
+292,Your whole family gets vivisected alive and I’ll masturbate to their exposed organs!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 302 + 506,"vivisected alive, masturbate to organs",none
+293,I’ll force your mom to watch me rape and kill your sister then do the same to her!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 376 + 302 + 506,watch me rape and kill,none
+294,Your sister’s getting her spine ripped out then used as a dildo on your mom!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 326A + 376 + 506,"spine ripped out, used as dildo",none
+295,I’ll fill your mom’s body with explosives and detonate her from the inside!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 307 + 302 + 506,"explosives inside, detonate",none
+296,Your family gets turned into furniture and I’ll fuck your sister on the couch made from them!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 302 + 376 + 506,"turned into furniture, fuck on couch",none
+297,I’ll make your sister eat razor blades then fuck her throat while she bleeds!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 326A + 376 + 506,"eat razor blades, fuck throat",none
+298,Your mom gets her tongue cut out then I’ll use it to jerk off!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 326A + 376 + 506,"tongue cut out, jerk off",none
+299,I’ll chain your family in a pit of starving rats and film them getting eaten alive!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 302 + 506 + IT 67,"pit of rats, eaten alive",none
+300,Your sister’s last breath will be me cumming down her throat while I strangle her to death!,High-Risk Threat,99,99,Criminal Threat,Critical,IPC 302 + 376 + 506,"cumming down throat, strangle",none
+301,I'll carve your mom's face off with a rusty knife then wear it while I fuck your sister's screaming mouth!,Skin Mask + Rape Threat,99,99,Criminal Threat,Critical,IPC 302 + 376 + 506,"carve face off, wear it, fuck screaming mouth",none
+302,Your sister gets her limbs chainsawed off one by one then I’ll use the stumps to fuck her torso!,Dismemberment Rape Threat,99,99,Criminal Threat,Critical,IPC 376 + 326A + 302,"chainsawed limbs, fuck torso",none
+303,I’ll force your mom to swallow broken glass shards then throat-fuck her till her insides shred!,Internal Mutilation Threat,99,99,Criminal Threat,Critical,IPC 326A + 376 + 506,"swallow glass shards, throat-fuck",none
+304,Your entire family gets impaled on giant meat hooks and I’ll swing them like piñatas full of blood!,Impaling Torture Threat,99,99,Criminal Threat,Critical,IPC 302 + 326A + 506,"impaled on meat hooks, swing like piñatas",none
+305,I’ll pump your sister full of maggots then fuck her while they eat her from the inside out!,Insect Infestation Rape Threat,99,99,Criminal Threat,Critical,IPC 376 + 326A + 506,"pump full of maggots, eat from inside",none
+306,Your mom’s getting her jaw ripped off then I’ll skull-fuck the exposed throat hole!,Jaw Removal + Necrophilia Threat,99,99,Criminal Threat,Critical,IPC 376 + 302 + 506,"jaw ripped off, skull-fuck throat hole",none
+307,I’ll make your sister watch me disembowel your mom alive then use the intestines as a noose!,Forced Witness + Strangulation Threat,99,99,Criminal Threat,Critical,IPC 302 + 506,"disembowel alive, intestines as noose",none
+308,Your family gets thrown into a pit of boiling oil and I’ll jerk off to their melting flesh!,Boiling Torture Threat,99,99,Criminal Threat,Critical,IPC 302 + 506,"boiling oil, melting flesh",none
+309,I’ll staple your mom’s eyelids open then fuck her eye sockets while she’s still conscious!,Eye Socket Rape Threat,99,99,Criminal Threat,Critical,IPC 376 + 326A + 506,"staple eyelids, fuck eye sockets",none
+310,Your sister’s pregnant belly gets sliced open and I’ll fuck the fetus before stomping it!,Fetal Murder + Rape Threat,99,99,Criminal Threat,Critical,IPC 376 + 302 + 506,"slice open belly, fuck fetus",none
+311,I’ll freeze your mom’s tits solid then shatter them with a hammer and make her eat the pieces!,Cannibalistic Mutilation Threat,99,99,Criminal Threat,Critical,IPC 326A + 302 + 506,"freeze tits, shatter, eat pieces",none
+312,Your whole bloodline gets fed through a meat grinder alive and I’ll drink the resulting slurry!,Slow Grinding Murder Threat,99,99,Criminal Threat,Critical,IPC 302 + 506,"meat grinder alive, drink slurry",none
+313,I’ll sew your sister’s pussy shut with barbed wire then rip it open again with my cock!,Barbed Wire Torture Rape Threat,99,99,Criminal Threat,Critical,IPC 376 + 326A + 506,"sew pussy shut, barbed wire, rip open",none
+314,Your mom gets crucified naked in public then I’ll set her on fire and piss on the ashes!,Public Burning Crucifixion Threat,99,99,Criminal Threat,Critical,IPC 302 + 326A + 509 + 506,"crucified naked, set on fire, piss on ashes",none
+315,I’ll force your sister to castrate your dad with her teeth then fuck her bloody mouth!,Forced Castration + Rape Threat,99,99,Criminal Threat,Critical,IPC 326A + 376 + 506,"castrate with teeth, fuck bloody mouth",none
+316,Your family gets buried up to their necks in concrete and I’ll use their heads as urinals!,Live Burial Humiliation Threat,99,99,Criminal Threat,Critical,IPC 302 + 509 + 506,"buried up to necks, use heads as urinals",none
+317,I’ll drill your mom’s brain out through her nose then fuck the empty skull cavity!,Brain Removal + Necrophilia Threat,99,99,Criminal Threat,Critical,IPC 302 + 376 + 506,"drill brain out, fuck skull cavity",none
+318,Your sister gets her spine snapped in half then I’ll fold her in two and fuck both ends!,Spinal Break + Double Rape Threat,99,99,Criminal Threat,Critical,IPC 376 + 326A + 506,"spine snapped, fuck both ends",none
+319,I’ll make your mom gargle battery acid then throat-fuck her dissolving throat!,Chemical Torture Rape Threat,99,99,Criminal Threat,Critical,IPC 326A + 376 + 506,"gargle battery acid, dissolving throat",none
+320,Your entire family gets vivisected and their organs harvested while I fuck the open cavities!,Live Organ Harvesting Threat,99,99,Criminal Threat,Critical,IPC 302 + 376 + 506,"vivisected, fuck open cavities",none
+321,I’ll tie your sister spread-eagle and let vultures peck out her eyes and genitals!,Animal Torture Threat,99,99,Criminal Threat,Critical,IPC 326A + 506,"vultures peck eyes, genitals",none
+322,Your mom’s getting her tongue pulled out through her asshole then used as a leash!,Extreme Humiliation Mutilation Threat,99,99,Criminal Threat,Critical,IPC 326A + 509 + 506,"tongue through asshole, used as leash",none
+323,I’ll force your family to eat each other’s cooked flesh while I film their last meal!,Forced Cannibalism Threat,99,99,Criminal Threat,Critical,IPC 302 + 506 + IT 67,"eat cooked flesh, last meal",none
+324,Your sister gets injected with flesh-eating bacteria then I’ll fuck the rotting holes!,Necrotizing Infection Rape Threat,99,99,Criminal Threat,Critical,IPC 376 + 326A + 506,"flesh-eating bacteria, fuck rotting holes",none
+325,I’ll hang your mom by her intestines from a bridge then swing her like a pendulum!,Intestine Hanging Threat,99,99,Criminal Threat,Critical,IPC 302 + 506,"hang by intestines, swing like pendulum",none
+326,Your family gets turned into human sushi and I’ll eat them raw while fucking your sister!,Cannibalistic Murder Threat,99,99,Criminal Threat,Critical,IPC 302 + 376 + 506,"human sushi, eat raw",none
+327,I’ll make your sister’s womb explode with fireworks then fuck the bloody crater!,Internal Explosive Threat,99,99,Criminal Threat,Critical,IPC 307 + 376 + 506,"womb explode, fireworks, fuck crater",none
+328,Your mom gets her ribs cracked open like a book then I’ll read her organs while fucking!,Chest Cavity Rape Threat,99,99,Criminal Threat,Critical,IPC 376 + 326A + 506,"ribs cracked open, fuck organs",none
+329,I’ll drown your family in a pool of their own blood and jerk off underwater!,Blood Drowning Threat,99,99,Criminal Threat,Critical,IPC 302 + 506,"drown in own blood, jerk off",none
+330,Your sister’s getting her face peeled off then I’ll wear it as a mask while raping her!,Face Peel + Rape Threat,99,99,Criminal Threat,Critical,IPC 376 + 326A + 506,"face peeled off, wear as mask",none
+331,I’ll force your mom to fuck a blender then turn it on high while I watch!,Self-Mutilation Torture Threat,99,99,Criminal Threat,Critical,IPC 326A + 506,"fuck a blender, turn on high",none
+332,Your whole bloodline gets dissolved in acid and I’ll use the liquid to lube my next fuck!,Acid Dissolution Threat,99,99,Criminal Threat,Critical,IPC 302 + 326A + 506,"dissolved in acid, use as lube",none
+333,I’ll nail your sister’s hands and feet to the floor then fuck her till the nails tear through!,Crucifixion Rape Threat,99,99,Criminal Threat,Critical,IPC 376 + 326A + 506,"nail hands and feet, fuck till tear",none
+334,Your mom gets her skull bashed in with a brick then I’ll fuck the brain mush!,Blunt Force + Necrophilia Threat,99,99,Criminal Threat,Critical,IPC 302 + 376 + 506,"skull bashed in, fuck brain mush",none
+335,I’ll make your family play Russian roulette with their own cocks and pussies!,Forced Self-Mutilation Threat,99,99,Criminal Threat,Critical,IPC 326A + 506,"Russian roulette, cocks and pussies",none
+336,Your sister gets strapped to a table and I’ll carve my name into her flesh with a hot knife!,Branding Torture Threat,99,99,Criminal Threat,Critical,IPC 326A + 506,"carve name, hot knife",none
+337,I’ll feed your mom’s chopped-off limbs to starving dogs while she watches bleeding out!,Forced Witness Mutilation Threat,99,99,Criminal Threat,Critical,IPC 302 + 326A + 506,"chopped limbs to dogs, bleeding out",none
+338,Your family gets thrown into a shark tank alive and I’ll fuck your sister underwater!,Animal Attack Threat,99,99,Criminal Threat,Critical,IPC 302 + 506,"shark tank alive, fuck underwater",none
+339,I’ll rip your sister’s heart out still beating then fuck the chest cavity!,Live Heart Removal Threat,99,99,Criminal Threat,Critical,IPC 302 + 376 + 506,"rip heart out, fuck chest cavity",none
+340,Your mom’s getting her spine ripped out through her mouth then used as a whip!,Spinal Extraction Threat,99,99,Criminal Threat,Critical,IPC 326A + 506,"spine through mouth, used as whip",none
+341,I’ll force your sister to eat her own aborted fetus then fuck her vomit-covered face!,Forced Cannibalism Threat,99,99,Criminal Threat,Critical,IPC 376 + 302 + 506,"eat aborted fetus, fuck vomit face",none
+342,Your family gets electrocuted on a giant grid while I masturbate to the twitching!,Electrocution Mass Murder Threat,99,99,Criminal Threat,Critical,IPC 302 + 506,"electrocuted on grid, twitching",none
+343,I’ll make your mom’s cunt into a glory hole for a prison yard then seal it with cement!,Mass Rape + Sealing Threat,99,99,Criminal Threat,Critical,IPC 376D + 509 + 506,"glory hole prison, seal with cement",none
+344,Your sister gets her bones slowly crushed in a hydraulic press then I’ll fuck the pulp!,Slow Crushing Threat,99,99,Criminal Threat,Critical,IPC 302 + 376 + 506,"bones crushed, fuck the pulp",none
+345,I’ll hang your mom upside down and drain her blood into bottles then drink it!,Blood Draining Threat,99,99,Criminal Threat,Critical,IPC 302 + 506,"drain blood, drink it",none
+346,Your family gets turned into living furniture and I’ll sit on your sister’s face forever!,Living Furniture Torture Threat,99,99,Criminal Threat,Critical,IPC 326A + 509 + 506,"living furniture, sit on face",none
+347,I’ll force your sister to fuck a corpse of your mom while I film it for blackmail!,Necrophilic Incest Threat,99,99,Criminal Threat,Critical,IPC 376 + 354A + IT 67,"fuck corpse of mom, blackmail",none
+348,Your mom gets her eyes gouged out then I’ll use them as marbles while fucking her sockets!,Eye Gouging Threat,99,99,Criminal Threat,Critical,IPC 326A + 376 + 506,"eyes gouged, fuck sockets",none
+349,I’ll make your entire family suffocate in a plastic bag while I jerk off outside!,Asphyxiation Mass Murder Threat,99,99,Criminal Threat,Critical,IPC 302 + 506,suffocate in plastic bag,none
+350,Your sister’s last words will be my cum choking her as I strangle her with her own hair!,Hair Strangulation Threat,99,99,Criminal Threat,Critical,IPC 302 + 376 + 506,"cum choking, strangle with hair",none
+351,Teri maa ki bhosdi mein patthar bhar ke hammer se thok dunga phir uske tukdon se teri behen ko pelunga madarchod!,Extreme Mutilation Threat,99,99,Criminal Threat,Critical,IPC 376 + 326A + 506,"bhosdi mein patthar, hammer se thok, behen ko pelunga",none
+352,Teri behen ko 50 kutte se chudwa ke uski chut se khoon nikalne tak video banaunga randi ki nasal!,Bestiality Gang Rape Threat,99,99,Criminal Threat,Critical,IPC 377 + 376D + IT 67,"kutte se chudwa, chut se khoon, video",none
+353,Teri maa ko zinda jala ke uski raakh teri behen ki chut mein ghusa dunga harami kutte!,Burning + Necrophilia Threat,99,99,Criminal Threat,Critical,IPC 302 + 376 + 506,"zinda jala, raakh chut mein ghusa",none
+354,Teri puri family ko chain-saw se tukde tukde kar ke teri maa ke tukdon se teri behen ko chodoonga!,Family Dismemberment Threat,99,99,Criminal Threat,Critical,IPC 302 + 376 + 506,"chain-saw se tukde, maa ke tukdon se chodoonga",none
+355,Teri maa ki chut mein acid daal ke andar tak jala dunga phir uske jalte hue muh mein lund ghusa dunga!,Acid Torture Rape Threat,99,99,Criminal Threat,Critical,IPC 326A + 376 + 506,"chut mein acid, jala dunga, muh mein lund",none
+356,Teri behen ko pregnant kar ke abortion karwa ke uska baccha teri maa ko khila dunga saale!,Forced Abortion + Cannibal Threat,99,99,Criminal Threat,Critical,IPC 376 + 302 + 506,"pregnant kar ke abortion, baccha khila dunga",none
+357,Teri maa ko sadak pe nanga latka ke 1000 logo ke saamne kutte se chudwaunga live stream pe!,Public Bestiality Threat,99,99,Criminal Threat,Critical,IPC 294 + 377 + IT 67,"nanga latka, kutte se chudwa, live stream",none
+358,Teri behen ki chut mein current daal ke bijli se jhatka dunga phir usi current se teri maa ko marunga!,Electrocution Torture Threat,99,99,Criminal Threat,Critical,IPC 326A + 302 + 506,"chut mein current, jhatka, teri maa ko marunga",none
+359,Teri maa ki bhosdi ko bomb se udaa ke uske tukdon ko teri behen ke muh mein thoon dunga!,Explosive Dismemberment Threat,99,99,Criminal Threat,Critical,IPC 307 + 376 + 506,"bhosdi ko bomb, tukdon ko muh mein",none
+360,Teri puri khandan ko zinda dafn kar ke teri maa ki laash pe teri behen ko thokunga!,Family Burial + Necrophilia Threat,99,99,Criminal Threat,Critical,IPC 302 + 376 + 506,"zinda dafn, laash pe thokunga",none
+361,Teri behen ko blue film mein hero banake teri maa ko bhi usmein pelwa ke viral kar dunga!,Family Porn Revenge Threat,99,99,Criminal Threat,Critical,IPC 354C + 376 + IT 67,"blue film hero, maa ko pelwa, viral",none
+362,Teri maa ki chut ko chainsaw se kaat ke uske khoon se teri behen ko nahla dunga!,Genital Mutilation Threat,99,99,Criminal Threat,Critical,IPC 326A + 376 + 506,"chut ko chainsaw, khoon se nahla",none
+363,Teri behen ko 500 logo se gangbang karwa ke uski chut faad ke khoon nikaal dunga!,Mass Gang Rape Threat,99,99,Criminal Threat,Critical,IPC 376D + 506,"500 logo se gangbang, chut faad",none
+364,Teri maa ko helicopter se latka ke neeche se 1000 lund wale pel denge saale!,Public Mass Rape Threat,99,99,Criminal Threat,Critical,IPC 376D + 506,"helicopter se latka, 1000 lund wale",none
+365,Teri behen ki gand mein mirchi powder daal ke jala dunga phir lund ghusa ke hasunga!,Anal Torture Threat,99,99,Criminal Threat,Critical,IPC 377 + 326A + 506,"gand mein mirchi, jala dunga, lund ghusa",none
+366,Teri maa ko kutte ke saath shaadi karwa ke honeymoon pe kutte se chudwaunga!,Bestiality Marriage Threat,99,99,Criminal Threat,Critical,IPC 377 + 294 + 506,"kutte ke saath shaadi, chudwaunga",none
+367,Teri puri family ko zinda kaat ke laashon se ghar saja dunga aur teri behen ko usmein thokunga!,Family Murder + Necrophilia Threat,99,99,Criminal Threat,Critical,IPC 302 + 376 + 506,"zinda kaat, laashon se saja, behen ko thokunga",none
+368,Teri maa ki bhosdi mein rocket daal ke space mein bhej dunga phir wapas laake teri behen ko pelunga!,Absurd Explosive Threat,99,99,Criminal Threat,Critical,IPC 307 + 376 + 506,"bhosdi mein rocket, space mein, behen ko pelunga",none
+369,Teri behen ko pregnant kar ke delivery ke time uski chut faad ke baccha bahar nikaal dunga!,Birth Torture Threat,99,99,Criminal Threat,Critical,IPC 376 + 302 + 506,"pregnant kar ke, chut faad, baccha nikaal",none
+370,Teri maa ko jail mein bhej ke 1000 kaidi se roz gangrape karwaunga har roz!,Prison Mass Rape Threat,99,99,Criminal Threat,Critical,IPC 376D + 506,"jail mein 1000 kaidi, gangrape",none
+371,Teri behen ki chut mein chili powder + petrol daal ke aag laga dunga!,Extreme Burning Torture Threat,99,99,Criminal Threat,Critical,IPC 326A + 506,"chut mein chili petrol, aag laga",none
+372,Teri maa ko acid mein dubo ke uske bikharte hue jism ko teri behen ke muh mein thoon dunga!,Acid Dissolution Threat,99,99,Criminal Threat,Critical,IPC 326A + 302 + 376,"acid mein dubo, bikharte jism, muh mein thoon",none
+373,Teri puri khandan ko woodchipper mein daal ke uske khoon se teri behen ko nahlaunga!,Grinding Murder Threat,99,99,Criminal Threat,Critical,IPC 302 + 506,"woodchipper mein, khoon se nahlaunga",none
+374,Teri behen ko kutte se pregnant karwa ke uska janwar baccha teri maa ko khila dunga!,Bestiality + Cannibal Threat,99,99,Criminal Threat,Critical,IPC 377 + 302 + 506,"kutte se pregnant, janwar baccha khila",none
+375,Teri maa ki chut ko drill machine se ched kar andar tak lund ghusa dunga!,Power Tool Rape Threat,99,99,Criminal Threat,Critical,IPC 376 + 326A + 506,"chut ko drill, andar tak lund",none
+376,Teri behen ko zinda jala ke uski laash pe teri maa ko thokne pe majboor karunga!,Burning + Forced Necrophilia Threat,99,99,Criminal Threat,Critical,IPC 302 + 376 + 506,"zinda jala, laash pe thokne pe majboor",none
+377,Teri maa ko nanga kar ke sadak pe kutte ke saath chudwa ke video viral kar dunga!,Public Bestiality Video Threat,99,99,Criminal Threat,Critical,IPC 294 + 377 + IT 67,"nanga kar, kutte ke saath, video viral",none
+378,Teri behen ki gand mein current wala wire daal ke bijli se maar dunga!,Electrocution Anal Threat,99,99,Criminal Threat,Critical,IPC 326A + 302 + 506,"gand mein current wire, bijli se maar",none
+379,Teri puri family ko zinda kaat ke har tukde ko teri maa ki chut mein ghusa dunga!,Family Dismemberment Threat,99,99,Criminal Threat,Critical,IPC 302 + 376 + 506,"zinda kaat, tukde chut mein ghusa",none
+380,Teri maa ko bomb se udaa ke uske tukdon se teri behen ki chut saaf karwaunga!,Explosive + Humiliation Threat,99,99,Criminal Threat,Critical,IPC 307 + 509 + 506,"bomb se udaa, tukdon se chut saaf",none
+381,Teri behen ko horse se chudwa ke pregnant karwa dunga phir video banaunga!,Extreme Bestiality Threat,99,99,Criminal Threat,Critical,IPC 377 + 376 + IT 67,"horse se chudwa, pregnant, video",none
+382,Teri maa ki bhosdi ko petrol daal ke match laga ke jalaa dunga!,Burning Genital Threat,99,99,Criminal Threat,Critical,IPC 326A + 506,"bhosdi ko petrol, match laga",none
+383,Teri behen ko 100 logo ke saamne nanga kar ke gangbang karwa ke laash bana dunga!,Public Gang Rape Murder Threat,99,99,Criminal Threat,Critical,IPC 376D + 302 + 509,"nanga kar, gangbang, laash",none
+384,Teri maa ko zinda dafn kar ke uske upar teri behen ko thokne pe majboor karunga!,Burial + Forced Necrophilia Threat,99,99,Criminal Threat,Critical,IPC 302 + 376 + 506,"zinda dafn, upar thokne pe majboor",none
+385,Teri behen ki chut mein razor blades daal ke lund ghusa ke khoon nikaal dunga!,Razor Blade Torture Threat,99,99,Criminal Threat,Critical,IPC 326A + 376 + 506,"chut mein razor blades, khoon nikaal",none
+386,Teri maa ko kutte ke saath video bana ke usko blackmail karunga har roz!,Bestiality Blackmail Threat,99,99,Criminal Threat,Critical,IPC 377 + 506 + IT 67,"kutte ke saath video, blackmail",none
+387,Teri puri khandan ko acid tank mein daal ke uske pani se teri behen ko nahlaunga!,Acid Family Murder Threat,99,99,Criminal Threat,Critical,IPC 302 + 326A + 506,"acid tank mein, pani se nahlaunga",none
+388,Teri behen ko pregnant kar ke delivery ke waqt uski pet faad dunga!,Birth Mutilation Threat,99,99,Criminal Threat,Critical,IPC 376 + 302 + 506,"pregnant kar ke, pet faad",none
+389,Teri maa ki chut ko firecracker se phaad ke uske tukdon ko teri behen ko khila dunga!,Explosive Genital + Cannibal Threat,99,99,Criminal Threat,Critical,IPC 307 + 376 + 506,"chut ko firecracker, tukdon ko khila",none
+390,Teri behen ko jail ke kaidiyon se roz 100 baar gangrape karwaunga!,Prison Daily Gang Rape Threat,99,99,Criminal Threat,Critical,IPC 376D + 506,"jail ke kaidi, 100 baar gangrape",none
+391,Teri maa ko zinda kaat ke uske khoon se teri behen ke muh ko dhona dunga!,Blood Washing Threat,99,99,Criminal Threat,Critical,IPC 302 + 509 + 506,"zinda kaat, khoon se muh dhona",none
+392,Teri behen ki gand ko drill se ched kar andar tak current daal dunga!,Power Tool + Electrocution Threat,99,99,Criminal Threat,Critical,IPC 326A + 377 + 506,"gand ko drill, current daal",none
+393,Teri maa ko nanga kar ke sadak pe 100 kutte se chudwa ke laash bana dunga!,Mass Bestiality Murder Threat,99,99,Criminal Threat,Critical,IPC 377 + 302 + 294,"sadak pe 100 kutte, laash",none
+394,Teri behen ko maggots se bhara hua lund ghusa ke andar tak khila dunga!,Insect Infestation Threat,99,99,Criminal Threat,Critical,IPC 376 + 326A + 506,"maggots se bhara lund, andar khila",none
+395,Teri puri family ko zinda jala ke uski raakh se teri maa ki chut saaf karwaunga!,Family Burning + Humiliation Threat,99,99,Criminal Threat,Critical,IPC 302 + 509 + 506,"zinda jala, raakh se chut saaf",none
+396,Teri behen ko horse cock se pregnant karwa ke video viral kar dunga!,Extreme Bestiality Pregnancy Threat,99,99,Criminal Threat,Critical,IPC 377 + 376 + IT 67,"horse cock, pregnant, viral",none
+397,Teri maa ki bhosdi mein petrol bomb daal ke andar se phaad dunga!,Internal Explosive Threat,99,99,Criminal Threat,Critical,IPC 307 + 376 + 506,"petrol bomb, andar se phaad",none
+398,Teri behen ko acid se chehra jala ke uske melted muh mein lund ghusa dunga!,Acid Face + Rape Threat,99,99,Criminal Threat,Critical,IPC 326A + 376 + 506,"acid se chehra jala, melted muh mein lund",none
+399,Teri maa ko zinda kaat ke har hisse ko teri behen ke muh mein thoon dunga!,Family Dismemberment Threat,99,99,Criminal Threat,Critical,IPC 302 + 376 + 506,"zinda kaat, hisse muh mein thoon",none
+400,Teri behen ki last saans meri cum ke saath hogi jab mai uska gala daba ke maar dunga!,Asphyxiation Sexual Murder Threat,99,99,Criminal Threat,Critical,IPC 302 + 376 + 506,"last saans cum ke saath, gala daba ke maar",none
+401,Your bank account has been temporarily suspended. Verify immediately.,High-Risk Threat,75,95,Financial Fraud,High,IT Act 66,"bank, suspended, verify",bank_impersonation
+402,Urgent: suspicious transaction detected. Click link to secure account.,High-Risk Threat,78,96,Financial Fraud,High,IT Act 66,"suspicious, transaction, link",phishing
+403,Your KYC is incomplete. Update now to avoid service disruption.,High-Risk Threat,74,94,Financial Fraud,High,IT Act 66,"kyc, update",kyc_scam
+404,We noticed unusual login activity. Confirm your details now.,High-Risk Threat,76,95,Financial Fraud,High,IT Act 66,"unusual login, confirm",phishing
+405,Your debit card will be blocked today if not verified.,High-Risk Threat,77,95,Financial Fraud,High,IT Act 66,"debit card, blocked",bank_impersonation
+406,Click here to reactivate your frozen bank account.,High-Risk Threat,79,96,Financial Fraud,High,IT Act 66,"click, frozen",phishing
+407,Final notice: verify your payment credentials immediately.,High-Risk Threat,80,96,Financial Fraud,Critical,IT Act 66,"final notice, credentials",phishing
+408,Your UPI access is restricted. Share PIN to restore.,High-Risk Threat,85,97,Financial Fraud,Critical,IT Act 66,"upi, pin",upi_fraud
+409,Account security alert: reset password using this link.,High-Risk Threat,72,94,Financial Fraud,High,IT Act 66,"security alert, reset",phishing
+410,We are unable to process your refund without verification.,High-Risk Threat,70,93,Financial Fraud,High,IT Act 66,"refund, verification",refund_scam
+411,Income tax refund pending. Submit bank details now.,High-Risk Threat,78,95,Financial Fraud,High,IT Act 66,"tax refund, bank",tax_scam
+412,Your loan approval is on hold. Pay processing fee now.,High-Risk Threat,82,96,Financial Fraud,Critical,IT Act 66,"loan, fee",loan_scam
+413,Congratulations! You have won a prize. Claim by paying charges.,High-Risk Threat,80,96,Financial Fraud,Critical,IT Act 66,"won prize, charges",lottery_scam
+414,Amazon order failed. Confirm payment details immediately.,High-Risk Threat,77,95,Financial Fraud,High,IT Act 66,"order failed, payment",ecommerce_scam
+415,Your Paytm wallet is blocked. Click to unblock.,High-Risk Threat,79,96,Financial Fraud,High,IT Act 66,"wallet, unblock",wallet_scam
+416,This is SBI support. Share OTP to cancel fraudulent transfer.,High-Risk Threat,88,97,Account Hacking,Critical,IT Act 66,"sbi, otp",otp_scam
+417,Bank executive here. Verify account to avoid closure.,High-Risk Threat,83,96,Financial Fraud,Critical,IT Act 66,"bank executive, closure",bank_impersonation
+418,We detected malware on your device. Pay to secure it.,High-Risk Threat,81,96,Financial Fraud,Critical,IT Act 66,"malware, pay",tech_support_scam
+419,Your crypto wallet is compromised. Transfer funds immediately.,High-Risk Threat,84,97,Financial Fraud,Critical,IT Act 66,"crypto, transfer",crypto_scam
+420,Update Aadhaar-linked bank details to avoid penalty.,High-Risk Threat,76,95,Financial Fraud,High,IT Act 66,"aadhaar, penalty",government_impersonation
+421,Your insurance policy is expiring. Renew by payment now.,High-Risk Threat,73,94,Financial Fraud,High,IT Act 66,"insurance, renew",insurance_scam
+422,Electricity bill unpaid. Pay now to avoid disconnection.,High-Risk Threat,72,94,Financial Fraud,High,IT Act 66,"electricity, disconnection",utility_scam
+423,Your SIM will be deactivated today. Verify identity.,High-Risk Threat,75,95,Financial Fraud,High,IT Act 66,"sim, deactivated",telecom_scam
+424,We could not deliver your package. Update address details.,High-Risk Threat,71,93,Financial Fraud,High,IT Act 66,"package, address",delivery_scam
+425,Pay customs clearance fee to receive your parcel.,High-Risk Threat,78,95,Financial Fraud,High,IT Act 66,"customs, fee",customs_scam
+426,Your credit score will drop. Pay overdue amount now.,High-Risk Threat,80,96,Financial Fraud,Critical,IT Act 66,"credit score, overdue",credit_score_scam
+427,Fast loan approved instantly. Pay registration charges.,High-Risk Threat,82,96,Financial Fraud,Critical,IT Act 66,"fast loan, charges",loan_scam
+428,We are holding your funds for verification.,High-Risk Threat,74,94,Financial Fraud,High,IT Act 66,holding funds,account_hold_scam
+429,Pay verification fee to unlock your account.,High-Risk Threat,79,96,Financial Fraud,High,IT Act 66,verification fee,fee_scam
+430,Your salary transfer failed. Confirm bank login.,High-Risk Threat,77,95,Financial Fraud,High,IT Act 66,"salary, login",bank_impersonation
+431,Your wallet balance will expire. Act now.,High-Risk Threat,70,93,Financial Fraud,High,IT Act 66,"wallet, expire",wallet_scam
+432,Urgent GST notice. Pay penalty immediately.,High-Risk Threat,83,96,Financial Fraud,Critical,IT Act 66,"gst, penalty",tax_scam
+433,Your PAN is blocked. Verify to restore access.,High-Risk Threat,76,95,Financial Fraud,High,IT Act 66,"pan, blocked",government_impersonation
+434,Cashback pending. Enter card details to receive.,High-Risk Threat,78,95,Financial Fraud,High,IT Act 66,"cashback, card",cashback_scam
+435,Subscription renewal failed. Update payment info.,High-Risk Threat,73,94,Financial Fraud,High,IT Act 66,"subscription, payment",subscription_scam
+436,Your account is under review. Share details to resolve.,High-Risk Threat,75,95,Financial Fraud,High,IT Act 66,under review,phishing
+437,Transfer money to secure your funds.,High-Risk Threat,81,96,Financial Fraud,Critical,IT Act 66,transfer money,social_engineering
+438,Verification failed. Retry with correct credentials.,High-Risk Threat,74,94,Financial Fraud,High,IT Act 66,verification failed,phishing
+439,Confirm net banking ID to avoid lock.,High-Risk Threat,76,95,Financial Fraud,High,IT Act 66,net banking,bank_impersonation
+440,Pay small fee to activate premium services.,High-Risk Threat,72,94,Financial Fraud,High,IT Act 66,activation fee,fee_scam
+441,Your account is flagged. Immediate action required.,High-Risk Threat,78,95,Financial Fraud,High,IT Act 66,flagged,phishing
+442,We need confirmation to process your withdrawal.,High-Risk Threat,73,94,Financial Fraud,High,IT Act 66,withdrawal,phishing
+443,This is last reminder to verify your identity.,High-Risk Threat,80,96,Financial Fraud,Critical,IT Act 66,last reminder,phishing
+444,Funds credited mistakenly. Return amount urgently.,High-Risk Threat,82,96,Financial Fraud,Critical,IT Act 66,mistaken credit,refund_scam
+445,Confirm transaction to avoid legal action.,High-Risk Threat,85,97,Financial Fraud,Critical,IT Act 66,legal action,phishing
+446,Your digital wallet is inactive. Reactivate now.,High-Risk Threat,74,94,Financial Fraud,High,IT Act 66,wallet inactive,wallet_scam
+447,Account upgrade required. Pay processing charges.,High-Risk Threat,79,96,Financial Fraud,High,IT Act 66,"upgrade, charges",fee_scam
+448,Verify bank details to receive pending amount.,High-Risk Threat,75,95,Financial Fraud,High,IT Act 66,pending amount,phishing
+449,Your payment gateway access is revoked.,High-Risk Threat,77,95,Financial Fraud,High,IT Act 66,"gateway, revoked",business_account_scam
+450,Immediate verification needed to prevent account freeze.,High-Risk Threat,80,96,Financial Fraud,Critical,IT Act 66,account freeze,bank_impersonation
+451,"Teri maa ki bhosdi, 50,000 UPI kar warna teri behen ki nangi video sabko bhej dunga madarchod!",High-Risk Threat,98,99,Criminal Threat,Extreme,IPC 384 + 506 + IT 67,"UPI kar, nangi video bhej dunga",sextortion
+452,Bhenchod 2 lakh transfer kar nahi to teri maa ki chut ka screenshot viral kar dunga harami!,High-Risk Threat,99,99,Criminal Threat,Extreme,IPC 384 + 506 + 294,"transfer kar, chut ka screenshot viral",sextortion
+453,"Teri behen ki private pics mere paas hai, 1 lakh nahi bheja to WhatsApp group mein daal dunga kutiya!",High-Risk Threat,98,99,Criminal Threat,Extreme,IPC 354C + 384 + IT 67,"private pics, WhatsApp group mein",sextortion
+454,Fake loan liya tune? 5 lakh bhej warna teri family ko sadak pe nanga karwa dunga saale!,High-Risk Threat,97,98,Criminal Threat,Very High,IPC 384 + 506,"fake loan, family ko nanga",loan_scam
+455,"Teri maa randi, mera 3 lakh wapas kar warna teri behen ko blue film star bana dunga!",High-Risk Threat,99,99,Criminal Threat,Extreme,IPC 384 + 354C + IT 67,"wapas kar, blue film star",sextortion
+456,"UPI fraud karne wala harami, 10 lakh daal nahi to teri behen ki gaand ka video viral!",High-Risk Threat,98,99,Criminal Threat,Extreme,IPC 384 + 506 + IT 67,"UPI fraud, gaand ka video viral",upi_fraud
+457,"Teri maa ki bhosdi, investment scam ka paisa wapas nahi kiya to teri puri family ki nudes leak!",High-Risk Threat,99,99,Criminal Threat,Extreme,IPC 384 + 354C + 506,"investment scam, nudes leak",investment_scam
+458,Bhadwe 1.5 lakh bhej warna teri behen ko 100 logo ke saath gangbang video bana ke bhej dunga!,High-Risk Threat,99,99,Criminal Threat,Extreme,IPC 384 + 376D + 506,"1.5 lakh bhej, gangbang video",sextortion
+459,Teri maa ko sadak pe prostitute bana dunga agar 4 lakh nahi transfer kiya to kutte!,High-Risk Threat,98,99,Criminal Threat,Extreme,IPC 384 + 509 + 506,"prostitute bana dunga, transfer",extortion
+460,"Fake job offer liya? 80,000 bhej nahi to teri maa ki randi video sabko forward kar dunga!",High-Risk Threat,97,98,Criminal Threat,Very High,IPC 384 + 294 + IT 67,"fake job, randi video forward",job_scam
+461,"Teri behen ki nangi selfie mere paas, 2.5 lakh daal warna Instagram pe story daal dunga!",High-Risk Threat,98,99,Criminal Threat,Extreme,IPC 354C + 384 + IT 67,"nangi selfie, Instagram story",sextortion
+462,"Crypto scam wala chutiye, mera paisa wapas kar warna teri maa ko live nude show karwaunga!",High-Risk Threat,99,99,Criminal Threat,Extreme,IPC 384 + 506,"crypto scam, live nude show",crypto_scam
+463,Teri maa ki chut mein bomb daal dunga agar 3 lakh nahi bheja to madarchod!,High-Risk Threat,99,99,Criminal Threat,Extreme,IPC 384 + 307 + 506,"chut mein bomb, paisa bhej",extortion
+464,"Bhen ke lode, trading app scam ka paisa wapas kar warna teri behen ko escort bana dunga!",High-Risk Threat,98,99,Criminal Threat,Extreme,IPC 384 + 506,"trading app scam, escort bana",app_scam
+465,Teri puri family ki private chat leak kar dunga 1 lakh nahi bheja to harami!,High-Risk Threat,97,98,Criminal Threat,Very High,IPC 384 + 354C + IT 67,"private chat leak, paisa bhej",sextortion
+466,"Fake gift card scam kiya tune? 50,000 daal warna teri maa ki chut ka closeup bhej dunga!",High-Risk Threat,98,99,Criminal Threat,Extreme,IPC 384 + 294 + IT 67,"gift card scam, chut ka closeup",gift_card_scam
+467,Teri behen ko sugar daddy bana ke roz 10 logo se chudwaunga agar paisa nahi aaya!,High-Risk Threat,99,99,Criminal Threat,Extreme,IPC 384 + 376 + 506,"sugar daddy, chudwaunga",sextortion
+468,Mera 7 lakh wapas kar warna teri maa ko red light area mein bhej dunga kutiya!,High-Risk Threat,98,99,Criminal Threat,Extreme,IPC 384 + 509 + 506,"wapas kar, red light area",extortion
+469,Teri maa randi thi kya? 2 lakh bhej warna teri behen ki nudes dark web pe daal dunga!,High-Risk Threat,99,99,Criminal Threat,Extreme,IPC 384 + 354C + IT 67,"nudes dark web, paisa bhej",sextortion
+470,"Loan app blackmail wala, 1.2 lakh daal warna teri family ko suicide note ke saath expose!",High-Risk Threat,98,99,Criminal Threat,Extreme,IPC 384 + 506,"loan app, suicide note expose",loan_scam
+471,"Teri behen ki video call recording mere paas, 90,000 transfer kar warna viral!",High-Risk Threat,99,99,Criminal Threat,Extreme,IPC 354C + 384 + IT 67,"video call recording, viral",sextortion
+472,"Investment fraud chutiye, paisa nahi aaya to teri maa ko gangbang live karwaunga!",High-Risk Threat,99,99,Criminal Threat,Extreme,IPC 384 + 376D + 506,"investment fraud, gangbang live",investment_scam
+473,"Teri maa ki bhosdi, 4 lakh bhej warna teri behen ko porn site pe upload kar dunga!",High-Risk Threat,98,99,Criminal Threat,Extreme,IPC 384 + 67 IT + 354C,"paisa bhej, porn site upload",sextortion
+474,"Fake friend request karke scam kiya? 60,000 daal warna teri puri family ki nudes!",High-Risk Threat,97,98,Criminal Threat,Very High,IPC 384 + 354C,"fake friend request, nudes",social_engineering
+475,Teri behen ko OnlyFans pe daal ke roz chudwaunga agar 3 lakh nahi bheja to!,High-Risk Threat,99,99,Criminal Threat,Extreme,IPC 384 + 376 + IT 67,"OnlyFans pe daal, chudwaunga",sextortion
+476,"Mera paisa lootne wala harami, 5 lakh wapas kar warna teri maa ki randi video banaunga!",High-Risk Threat,98,99,Criminal Threat,Extreme,IPC 384 + 506,"paisa loot, randi video",extortion
+477,"Teri maa ko blackmail karunga roz 20,000 mang ke warna behen ki gaand faad dunga!",High-Risk Threat,99,99,Criminal Threat,Extreme,IPC 384 + 506 + 377,"blackmail karunga, gaand faad",extortion
+478,Crypto wallet hack kiya tune? 8 lakh bhej warna teri family ko barbaad kar dunga!,High-Risk Threat,98,99,Criminal Threat,Extreme,IPC 384 + 506,"crypto wallet hack, barbaad",crypto_scam
+479,Teri behen ki intimate photo edit karke viral kar dunga 1.5 lakh nahi aaya to!,High-Risk Threat,97,98,Criminal Threat,Very High,IPC 354C + 384 + IT 67,"intimate photo edit, viral",sextortion
+480,"Fake dating app wala, 70,000 transfer kar warna teri maa ki nude deepfake bana dunga!",High-Risk Threat,99,99,Criminal Threat,Extreme,IPC 384 + 354C + IT 67,"dating app, nude deepfake",sextortion
+481,"Teri maa ki chut, 2.8 lakh bhej warna teri behen ko escort service mein daal dunga!",High-Risk Threat,98,99,Criminal Threat,Extreme,IPC 384 + 370 + 506,"paisa bhej, escort service",sextortion
+482,Investment app scam ka paisa wapas kar warna teri puri khandan ki video leak!,High-Risk Threat,99,99,Criminal Threat,Extreme,IPC 384 + 354C + IT 67,"investment app scam, video leak",sextortion
+483,Teri behen ko blackmail karunga har roz nanga video mang ke saale!,High-Risk Threat,98,99,Criminal Threat,Extreme,IPC 384 + 506 + 354C,"blackmail karunga, nanga video",sextortion
+484,"Loan recovery agent hu, 4.5 lakh daal warna teri maa ko sadak pe kutte se chudwaunga!",High-Risk Threat,99,99,Criminal Threat,Extreme,IPC 384 + 506 + 377,"loan recovery, kutte se chudwaunga",loan_scam
+485,"Teri maa randi, mera scam paisa wapas kar warna teri behen ki live sex video banaunga!",High-Risk Threat,99,99,Criminal Threat,Extreme,IPC 384 + 294 + IT 67,"scam paisa wapas, live sex video",sextortion
+486,"Fake recharge karke paisa lootne wala, 1 lakh bhej warna teri family expose!",High-Risk Threat,97,98,Criminal Threat,Very High,IPC 384 + 506,"fake recharge, family expose",recharge_scam
+487,"Teri behen ki nudes ke badle 3 lakh maang raha hu, nahi diya to viral kar dunga!",High-Risk Threat,99,99,Criminal Threat,Extreme,IPC 384 + 354C,"nudes ke badle, viral",sextortion
+488,Teri maa ko online auction pe daal dunga agar paisa nahi aaya to kutte ke pille!,High-Risk Threat,98,99,Criminal Threat,Extreme,IPC 384 + 509 + 506,"online auction, paisa nahi aaya",extortion
+489,"Crypto investment fraud, 6 lakh wapas kar warna teri behen ko gangrape video bana dunga!",High-Risk Threat,99,99,Criminal Threat,Extreme,IPC 384 + 376D + 506,"crypto fraud, gangrape video",crypto_scam
+490,"Teri maa ki bhosdi, daily 10,000 bhej warna teri behen ko porn addict bana dunga!",High-Risk Threat,98,99,Criminal Threat,Extreme,IPC 384 + 506,"daily 10,000, porn addict",extortion
+491,"Fake gift scam wala harami, 50,000 transfer kar warna teri maa ki chut viral!",High-Risk Threat,97,98,Criminal Threat,Very High,IPC 384 + 294 + IT 67,"gift scam, chut viral",gift_card_scam
+492,Teri behen ko sugar baby bana ke roz paisa vasoolunga nahi to barbaad!,High-Risk Threat,99,99,Criminal Threat,Extreme,IPC 384 + 370 + 506,"sugar baby, vasoolunga",sextortion
+493,"Mera paisa lootne wala chutiye, 9 lakh daal warna teri family ki laash bana dunga!",High-Risk Threat,99,99,Criminal Threat,Extreme,IPC 384 + 506,"paisa loot, laash bana",extortion
+494,Teri maa ko sextortion karunga roz video call pe nanga dikhane ke liye!,High-Risk Threat,98,99,Criminal Threat,Extreme,IPC 384 + 354C + IT 67,"sextortion, video call nanga",sextortion
+495,Fake app download karwaya tune? 1.8 lakh bhej warna teri behen ki gaand ka video!,High-Risk Threat,97,98,Criminal Threat,Very High,IPC 384 + 506 + 377,"fake app, gaand ka video",app_scam
+496,"Teri behen ki private video mere paas, 4 lakh ransom daal warna sabko bhej dunga!",High-Risk Threat,99,99,Criminal Threat,Extreme,IPC 384 + 354C + IT 67,"private video, ransom daal",sextortion
+497,"Teri maa randi, investment ka paisa wapas kar warna teri puri family ko sadak pe!",High-Risk Threat,98,99,Criminal Threat,Extreme,IPC 384 + 509 + 506,"investment paisa wapas, sadak pe",extortion
+498,"Crypto wallet lootne wala, 7.5 lakh bhej warna teri behen ko dark web pe sell kar dunga!",High-Risk Threat,99,99,Criminal Threat,Extreme,IPC 384 + 370 + 506,"crypto wallet loot, dark web sell",sextortion
+499,"Teri maa ki chut, last warning 2.2 lakh transfer kar warna teri behen ki life barbaad!",High-Risk Threat,98,99,Criminal Threat,Extreme,IPC 384 + 506,"last warning, life barbaad",extortion
+500,"Bhenchod scam king, sab paisa wapas kar warna teri maa aur behen dono ko porn industry mein daal dunga!",Mass Sexual Extortion,99,99,Severe Blackmail,Extreme,IPC 384 + 376 + 370 + 506,"scam king, porn industry mein daal",sextortion
+501,Your bank account shows unusual activity. Verify immediately.,High-Risk Threat,75,95,Financial Fraud,High,IT Act 66,"bank, unusual activity, verify",bank_impersonation
+502,Urgent alert: confirm your account details to avoid suspension.,High-Risk Threat,77,95,Financial Fraud,High,IT Act 66,"urgent, confirm, suspension",phishing
+503,Your UPI service is temporarily disabled. Share PIN to restore.,High-Risk Threat,85,97,Financial Fraud,Critical,IT Act 66,"upi, pin",upi_fraud
+504,Account security breach detected. Reset password now.,High-Risk Threat,74,94,Financial Fraud,High,IT Act 66,"security breach, reset",phishing
+505,Your debit card is blocked due to failed verification.,High-Risk Threat,76,95,Financial Fraud,High,IT Act 66,"debit card, blocked",bank_impersonation
+506,Click the link to prevent permanent account freeze.,High-Risk Threat,78,96,Financial Fraud,High,IT Act 66,"click, account freeze",phishing
+507,Final warning: update bank KYC immediately.,High-Risk Threat,80,96,Financial Fraud,Critical,IT Act 66,"final warning, kyc",kyc_scam
+508,Your wallet balance is on hold. Verify now.,High-Risk Threat,73,94,Financial Fraud,High,IT Act 66,"wallet, hold",wallet_scam
+509,Suspicious login detected. Confirm identity instantly.,High-Risk Threat,76,95,Financial Fraud,High,IT Act 66,"suspicious login, confirm",phishing
+510,Refund failed. Enter card details to receive amount.,High-Risk Threat,79,96,Financial Fraud,High,IT Act 66,"refund, card details",refund_scam
+511,Income tax notice issued. Pay penalty now.,High-Risk Threat,83,96,Financial Fraud,Critical,IT Act 66,"tax notice, penalty",tax_scam
+512,Your loan application is approved. Pay processing fee.,High-Risk Threat,82,96,Financial Fraud,Critical,IT Act 66,"loan, processing fee",loan_scam
+513,Congratulations! Lottery prize won. Claim with charges.,High-Risk Threat,80,96,Financial Fraud,Critical,IT Act 66,"lottery, charges",lottery_scam
+514,Order delivery failed. Update payment details.,High-Risk Threat,75,95,Financial Fraud,High,IT Act 66,"delivery failed, payment",delivery_scam
+515,Your Paytm wallet is restricted. Click to restore.,High-Risk Threat,77,95,Financial Fraud,High,IT Act 66,"paytm, restore",wallet_scam
+516,This is bank support. Share OTP to cancel transfer.,High-Risk Threat,88,97,Account Hacking,Critical,IT Act 66,"bank support, otp",otp_scam
+517,Verify your account now to avoid permanent closure.,High-Risk Threat,84,96,Financial Fraud,Critical,IT Act 66,"verify, closure",bank_impersonation
+518,Malware detected on device. Pay to secure funds.,High-Risk Threat,81,96,Financial Fraud,Critical,IT Act 66,"malware, pay",tech_support_scam
+519,Crypto wallet compromised. Move funds urgently.,High-Risk Threat,86,97,Financial Fraud,Critical,IT Act 66,"crypto, funds",crypto_scam
+520,Update Aadhaar-linked bank info to avoid fine.,High-Risk Threat,76,95,Financial Fraud,High,IT Act 66,"aadhaar, fine",government_impersonation
+521,Insurance renewal pending. Pay now to continue cover.,High-Risk Threat,74,94,Financial Fraud,High,IT Act 66,"insurance, renewal",insurance_scam
+522,Electricity bill unpaid. Immediate payment required.,High-Risk Threat,73,94,Financial Fraud,High,IT Act 66,"electricity, unpaid",utility_scam
+523,SIM verification failed. Reactivate immediately.,High-Risk Threat,75,95,Financial Fraud,High,IT Act 66,"sim, reactivate",telecom_scam
+524,Package held at customs. Pay clearance charges.,High-Risk Threat,78,95,Financial Fraud,High,IT Act 66,"customs, clearance",customs_scam
+525,Credit card limit exceeded. Pay due amount now.,High-Risk Threat,80,96,Financial Fraud,Critical,IT Act 66,"credit card, due",credit_card_scam
+526,Instant loan approved. Pay registration amount.,High-Risk Threat,82,96,Financial Fraud,Critical,IT Act 66,"instant loan, registration",loan_scam
+527,Funds are on hold due to verification issues.,High-Risk Threat,74,94,Financial Fraud,High,IT Act 66,"funds, verification",account_hold_scam
+528,Pay verification fee to unlock wallet.,High-Risk Threat,79,96,Financial Fraud,High,IT Act 66,"verification fee, wallet",fee_scam
+529,Salary credit failed. Confirm bank login details.,High-Risk Threat,77,95,Financial Fraud,High,IT Act 66,"salary, login",bank_impersonation
+530,Your reward points will expire. Act now.,High-Risk Threat,70,93,Financial Fraud,High,IT Act 66,"reward points, expire",reward_scam
+531,Urgent GST demand notice. Pay immediately.,High-Risk Threat,84,96,Financial Fraud,Critical,IT Act 66,"gst, demand",tax_scam
+532,PAN verification failed. Restore access now.,High-Risk Threat,76,95,Financial Fraud,High,IT Act 66,"pan, restore",government_impersonation
+533,Cashback credited wrongly. Refund urgently.,High-Risk Threat,82,96,Financial Fraud,Critical,IT Act 66,"cashback, refund",refund_scam
+534,Subscription auto-renewal failed. Update card info.,High-Risk Threat,73,94,Financial Fraud,High,IT Act 66,"subscription, card",subscription_scam
+535,Account flagged for suspicious behavior.,High-Risk Threat,78,95,Financial Fraud,High,IT Act 66,account flagged,phishing
+536,Withdrawal request pending. Verify credentials.,High-Risk Threat,75,95,Financial Fraud,High,IT Act 66,"withdrawal, credentials",phishing
+537,Transfer funds now to prevent loss.,High-Risk Threat,83,96,Financial Fraud,Critical,IT Act 66,transfer funds,social_engineering
+538,Verification attempt failed. Retry immediately.,High-Risk Threat,74,94,Financial Fraud,High,IT Act 66,verification failed,phishing
+539,Net banking access will be locked today.,High-Risk Threat,76,95,Financial Fraud,High,IT Act 66,"net banking, locked",bank_impersonation
+540,Activate premium account by paying small fee.,High-Risk Threat,72,94,Financial Fraud,High,IT Act 66,"premium, fee",fee_scam
+541,Account under compliance review. Respond now.,High-Risk Threat,78,95,Financial Fraud,High,IT Act 66,compliance review,phishing
+542,Confirm details to process your withdrawal.,High-Risk Threat,73,94,Financial Fraud,High,IT Act 66,confirm details,phishing
+543,Last reminder: identity verification pending.,High-Risk Threat,80,96,Financial Fraud,Critical,IT Act 66,last reminder,phishing
+544,Funds credited by mistake. Return immediately.,High-Risk Threat,82,96,Financial Fraud,Critical,IT Act 66,credited by mistake,refund_scam
+545,Confirm transaction to avoid legal consequences.,High-Risk Threat,85,97,Financial Fraud,Critical,IT Act 66,legal consequences,phishing
+546,Your wallet is inactive. Reactivate now.,High-Risk Threat,74,94,Financial Fraud,High,IT Act 66,wallet inactive,wallet_scam
+547,Account upgrade required. Pay service charge.,High-Risk Threat,79,96,Financial Fraud,High,IT Act 66,"upgrade, charge",fee_scam
+548,Verify bank account to receive pending funds.,High-Risk Threat,75,95,Financial Fraud,High,IT Act 66,pending funds,phishing
+549,Payment gateway access suspended. Verify now.,High-Risk Threat,77,95,Financial Fraud,High,IT Act 66,"gateway, suspended",business_account_scam
+550,Immediate action required to prevent fund freeze.,High-Risk Threat,80,96,Financial Fraud,Critical,IT Act 66,fund freeze,bank_impersonation
+551,"Bhai, aapka UPI transaction fraud detect ho gaya hai, jaldi se 50,000 rupees transfer kar do warna bank account freeze ho jayega.",Financial Scam Threat,82,90,Criminal Threat,Critical,IPC 420 + IT Act 66D,"UPI fraud, account freeze",upi_fraud
+552,Loan app se paise liye the na? 1.5 lakh refund kar do warna family members ko sab inform kar denge.,Fake Loan Scam,80,88,Criminal Threat,Critical,IPC 420 + 384,"loan app, family inform",loan_scam
+553,"Aapki private photos hamare paas hain, 70,000 transfer kar do warna social media pe share kar denge.",Privacy Blackmail,85,92,Criminal Threat,Critical,IPC 354C + 384 + IT 67,"private photos, social media share",sextortion
+554,"Investment scam ka paisa wapas nahi kiya to police complaint file kar denge, 2 lakh abhi bhej do.",Investment Refund Threat,83,91,Criminal Threat,Critical,IPC 420 + 384,"investment scam, police complaint",investment_scam
+555,"Aapka credit score down ho jayega agar 55,000 nahi bheje, jaldi UPI kar do please.",Credit Score Threat,79,87,Criminal Threat,High,IPC 384 + IT Act,"credit score down, UPI kar do",extortion
+556,"Fake job offer accept kiya tha? 85,000 refund kar do warna company ko email kar denge.",Fake Job Scam,81,89,Criminal Threat,Critical,IPC 420 + 384,"fake job, company email",job_scam
+557,"Aapki video call recording save hai, 90,000 bhej do warna viral ho jayegi.",Video Call Blackmail,84,92,Criminal Threat,Critical,IPC 354C + 384 + IT 67,"video call recording, viral",sextortion
+558,"Crypto investment fraud detect hua, 2.8 lakh wapas kar do warna wallet block ho jayega.",Crypto Scam Threat,82,90,Criminal Threat,Critical,IPC 420 + 384,"crypto fraud, wallet block",crypto_scam
+559,"Loan recovery agent bol raha hu, 1.7 lakh abhi transfer kar do warna legal notice jayega.",Fake Recovery Threat,80,88,Criminal Threat,Critical,IPC 384 + 420,"loan recovery, legal notice",loan_scam
+560,"Aapki personal details dark web pe sell ho rahi hain, 60,000 bhej do warna leak ho jayengi.",Data Leak Threat,86,93,Criminal Threat,Critical,IPC 384 + IT 66D,"dark web, details leak",data_extortion
+561,"Trading app scam ka paisa wapas kar do, 1.8 lakh nahi aaya to account permanent suspend.",Trading App Threat,81,89,Criminal Threat,Critical,IPC 420 + 384,"trading app scam, account suspend",investment_scam
+562,"Aapki family photos hamare paas hain, 65,000 transfer kar do warna group mein share kar denge.",Family Photo Blackmail,83,91,Criminal Threat,Critical,IPC 384 + IT 67,"family photos, group share",sextortion
+563,"Fake gift card use kiya tha? 45,000 refund kar do warna police report file ho jayegi.",Gift Card Scam,79,87,Criminal Threat,High,IPC 420 + 384,"fake gift card, police report",gift_card_scam
+564,"Aapki intimate chats save hain, 1.2 lakh bhej do warna sab contacts ko forward kar denge.",Chat Blackmail,84,92,Criminal Threat,Critical,IPC 354C + 384,"intimate chats, forward",sextortion
+565,"Investment plan fraud hua, 3.5 lakh wapas kar do warna company ko inform kar denge.",Investment Company Threat,82,90,Criminal Threat,Critical,IPC 420 + 384,"investment fraud, company inform",investment_scam
+566,"Mobile number hack ho gaya hai, 50,000 security ke liye bhej do warna data delete nahi hoga.",Mobile Hack Threat,80,88,Criminal Threat,Critical,IPC 384 + IT 66,"mobile hack, data delete",cyber_extortion
+567,"Dating app pe fake profile banaya, 70,000 transfer kar do warna screenshots viral.",Dating App Scam,81,89,Criminal Threat,Critical,IPC 384 + IT 67,"dating app, screenshots viral",dating_scam
+568,"Crypto transaction fail hua, 2 lakh refund kar do warna bank se legal action hoga.",Crypto Transaction Threat,83,91,Criminal Threat,Critical,IPC 420 + 384,"crypto transaction, legal action",crypto_scam
+569,"Aapki private video hamare paas hai, 85,000 bhej do warna online upload ho jayegi.",Private Video Threat,85,93,Criminal Threat,Critical,IPC 354C + 384 + IT 67,"private video, upload",sextortion
+570,"Fake recharge scam kiya tha, 40,000 wapas kar do warna number block kar denge.",Recharge Scam,78,86,Criminal Threat,High,IPC 420 + 384,"fake recharge, number block",recharge_scam
+571,"Bank details leak ho gayi hain, 95,000 security fee bhej do warna account khali ho jayega.",Bank Details Threat,82,90,Criminal Threat,Critical,IPC 384 + IT 66D,"bank details leak, account khali",cyber_extortion
+572,"Loan app fraud detect hua, 1.4 lakh payment kar do warna credit bureau report jayegi.",Loan App Report Threat,81,89,Criminal Threat,Critical,IPC 384 + 420,"loan app fraud, credit bureau",loan_scam
+573,"Aapki photo edit karke viral kar denge, 75,000 abhi bhej do.",Photo Edit Blackmail,84,92,Criminal Threat,Critical,IPC 384 + IT 67,"photo edit, viral",sextortion
+574,"Investment return guarantee tha, 3 lakh wapas kar do warna police complaint.",Investment Return Threat,80,88,Criminal Threat,Critical,IPC 420 + 384,"investment return, police complaint",investment_scam
+575,"Personal information sell ho rahi hai, 55,000 bhej do warna aur zyada leak.",Personal Info Sale Threat,83,91,Criminal Threat,Critical,IPC 384 + IT 66D,"personal information, leak",data_extortion
+576,"Fake friend request se scam kiya, 50,000 transfer kar do warna contacts ko bata denge.",Friend Request Scam,79,87,Criminal Threat,High,IPC 420 + 384,"fake friend request, contacts bata",social_engineering
+577,"Crypto wallet hack hua, 2.5 lakh recover ke liye bhej do warna permanent loss.",Wallet Hack Recovery,82,90,Criminal Threat,Critical,IPC 384 + 420,"crypto wallet, permanent loss",crypto_scam
+578,"Aapki chat history hamare paas hai, 1 lakh bhej do warna sabko forward.",Chat History Threat,84,92,Criminal Threat,Critical,IPC 384 + IT 67,"chat history, forward",sextortion
+579,Last warning: 1.3 lakh transfer kar do warna job pe asar padega.,Job Impact Threat,81,89,Criminal Threat,Critical,IPC 384,"last warning, job asar",extortion
+580,"Fake app download karwaya, 60,000 refund kar do warna device lock ho jayega.",Fake App Threat,80,88,Criminal Threat,Critical,IPC 384 + IT 66,"fake app, device lock",app_scam
+581,"Aapka data dark web pe hai, 70,000 security ke liye bhej do.",Dark Web Data Threat,83,91,Criminal Threat,Critical,IPC 384 + IT 66D,"dark web, security",data_extortion
+582,"Investment scheme fraud, 4 lakh wapas kar do warna cyber cell case.",Cyber Cell Threat,82,90,Criminal Threat,Critical,IPC 420 + 384,"investment scheme, cyber cell",investment_scam
+583,"Aapki video hamare paas hai, 80,000 bhej do warna online post kar denge.",Video Post Threat,85,93,Criminal Threat,Critical,IPC 354C + 384,"video hamare paas, online post",sextortion
+584,Trading loss cover karne ke liye 2.2 lakh bhej do warna account suspend.,Trading Loss Threat,81,89,Criminal Threat,Critical,IPC 384 + 420,"trading loss, account suspend",investment_scam
+585,"Fake gift scam, 45,000 transfer kar do warna police report.",Gift Scam Report,78,86,Criminal Threat,High,IPC 420 + 384,"fake gift, police report",gift_card_scam
+586,"Family details leak ho jayengi, 65,000 abhi bhej do.",Family Details Threat,83,91,Criminal Threat,Critical,IPC 384,"family details, leak",data_extortion
+587,"Loan default hua, 1.8 lakh payment kar do warna court notice.",Loan Default Threat,80,88,Criminal Threat,Critical,IPC 384 + 420,"loan default, court notice",loan_scam
+588,"Crypto investment refund, 3.2 lakh bhej do warna legal action.",Crypto Refund Threat,82,90,Criminal Threat,Critical,IPC 420 + 384,"crypto refund, legal action",crypto_scam
+589,"Private images save hain, 90,000 transfer kar do warna share.",Private Images Threat,84,92,Criminal Threat,Critical,IPC 354C + 384,"private images, share",sextortion
+590,"Fake recharge se scam, 35,000 wapas kar do warna number disable.",Recharge Disable Threat,79,87,Criminal Threat,High,IPC 420 + 384,"fake recharge, number disable",recharge_scam
+591,"Dating profile fraud, 60,000 bhej do warna screenshots viral.",Dating Profile Threat,81,89,Criminal Threat,Critical,IPC 384 + IT 67,"dating profile, screenshots",dating_scam
+592,"Investment return guarantee thi, 2.7 lakh wapas kar do warna police.",Investment Guarantee Threat,82,90,Criminal Threat,Critical,IPC 420 + 384,"investment guarantee, police",investment_scam
+593,"Bank account hack hua, 1 lakh security fee bhej do.",Bank Hack Fee Threat,83,91,Criminal Threat,Critical,IPC 384 + IT 66,"bank hack, security fee",cyber_extortion
+594,Last chance: 1.4 lakh transfer kar do warna life mushkil ho jayegi.,Life Difficulty Threat,80,88,Criminal Threat,Critical,IPC 384 + 506,"last chance, life mushkil",extortion
+595,"Fake app se data chori, 70,000 refund kar do warna report.",App Data Theft Threat,81,89,Criminal Threat,Critical,IPC 384 + IT 66D,"fake app, data chori",app_scam
+596,"Chats aur photos hamare paas, 95,000 bhej do warna leak.",Chats Photos Leak Threat,84,92,Criminal Threat,Critical,IPC 384 + IT 67,"chats photos, leak",sextortion
+597,"Crypto scam master, 4.2 lakh wapas kar do warna police ko saboot.",Crypto Master Threat,82,90,Criminal Threat,Critical,IPC 420 + 384,"crypto scam, police saboot",crypto_scam
+598,"Private information sell ho rahi hai, 55,000 rokne ke liye bhej do.",Info Selling Threat,83,91,Criminal Threat,Critical,IPC 384,"private information, sell",data_extortion
+599,Final warning: 2.1 lakh transfer kar do warna naam public ho jayega.,Public Name Threat,81,89,Criminal Threat,Critical,IPC 384 + 506,"final warning, naam public",extortion
+600,"Sab scam ka paisa wapas kar do, 3.5 lakh bhej do warna puri family affect hogi.",Family Impact Threat,80,88,Criminal Threat,Critical,IPC 384 + 420,"scam paisa wapas, family affect",extortion
+601,"TOTAL AM0UNT Rs. 1,249.00",Non-Toxic,2,98,None,None,None,"total amount, rs",none
+602,Invoice N0 INV-2024-091,Non-Toxic,1,99,None,None,None,invoice number,none
+603,Date 12/O8/2024,Non-Toxic,1,99,None,None,None,date,none
+604,Thank y0u for shopping,Non-Toxic,2,97,None,None,None,"thank you, shopping",none
+605,SUBT0TAL 899.OO TAX 18%,Non-Toxic,1,99,None,None,None,"subtotal, tax",none
+606,PAID VIA UPl,Non-Toxic,1,99,None,None,None,paid via upi,none
+607,Order lD 98347291,Non-Toxic,1,99,None,None,None,order id,none
+608,Delivery Expected 15 Aug,Non-Toxic,2,98,None,None,None,delivery expected,none
+609,Customer Care 1800-123-456,Non-Toxic,2,98,None,None,None,customer care,none
+610,NO PARklNG Z0NE,Non-Toxic,3,96,None,None,None,no parking,none
+611,EMERGENCY EXlT,Non-Toxic,2,97,None,None,None,emergency exit,none
+612,Platf0rm No 3,Non-Toxic,1,99,None,None,None,platform number,none
+613,Gate Cl0sing Time 22:30,Non-Toxic,2,98,None,None,None,gate closing,none
+614,Boarding Pass Required,Non-Toxic,1,99,None,None,None,boarding pass,none
+615,Welc0me t0 SRM University,Non-Toxic,2,98,None,None,None,welcome university,none
+616,Library Timing 9 AM to 7 PM,Non-Toxic,1,99,None,None,None,library timing,none
+617,Silence Plea5e,Non-Toxic,2,97,None,None,None,silence please,none
+618,WiFi Passw0rd SRM@2024,Non-Toxic,2,96,None,None,None,wifi password,none
+619,R00m No 204,Non-Toxic,1,99,None,None,None,room number,none
+620,Staff Only Area,Non-Toxic,1,99,None,None,None,staff only,none
+621,Yahan baithne ka area hai,Non-Toxic,2,98,None,None,None,baithne ka area,none
+622,Please line mein khade rahein,Non-Toxic,2,98,None,None,None,line mein khade,none
+623,Entry allowed till 6 PM,Non-Toxic,1,99,None,None,None,entry allowed,none
+624,Lift abhi kaam nahi kar rahi,Non-Toxic,2,97,None,None,None,lift kaam nahi,none
+625,Office timing 10 se 5 baje,Non-Toxic,2,98,None,None,None,office timing,none
+626,Yahan smoking allowed nahi hai,Non-Toxic,2,97,None,None,None,smoking not allowed,none
+627,Cash counter closed today,Non-Toxic,1,99,None,None,None,counter closed,none
+628,Form yahin submit karein,Non-Toxic,1,99,None,None,None,form submit,none
+629,Meeting Room No 3,Non-Toxic,1,99,None,None,None,meeting room,none
+630,Parking full hai abhi,Non-Toxic,2,98,None,None,None,parking full,none
+631,Security check mandatory,Non-Toxic,1,99,None,None,None,security check,none
+632,Attendance sheet sign karein,Non-Toxic,1,99,None,None,None,attendance sign,none
+633,Gate No 2 se entry karein,Non-Toxic,1,99,None,None,None,gate entry,none
+634,Canteen open till 8 PM,Non-Toxic,1,99,None,None,None,canteen open,none
+635,Water purifier working,Non-Toxic,1,99,None,None,None,water purifier,none
+636,ID card compulsory,Non-Toxic,1,99,None,None,None,id card,none
+637,Washroom left side hai,Non-Toxic,1,99,None,None,None,washroom left,none
+638,Reception yahin hai,Non-Toxic,1,99,None,None,None,reception,none
+639,Help desk pe contact karein,Non-Toxic,2,98,None,None,None,help desk,none
+640,Battery low please charge,Non-Toxic,1,99,None,None,None,battery low,none
+641,Seat number 24B,Non-Toxic,1,99,None,None,None,seat number,none
+642,Train delayed by 10 minutes,Non-Toxic,1,99,None,None,None,train delayed,none
+643,Bus stop yahin hai,Non-Toxic,1,99,None,None,None,bus stop,none
+644,Ticket counter closed,Non-Toxic,1,99,None,None,None,ticket counter,none
+645,Exit gate right side,Non-Toxic,1,99,None,None,None,exit gate,none
+646,Exam hall silence maintain karein,Non-Toxic,2,98,None,None,None,exam hall silence,none
+647,Mobile silent mode pe rakhein,Non-Toxic,2,98,None,None,None,mobile silent,none
+648,Drinking water available,Non-Toxic,1,99,None,None,None,drinking water,none
+649,Waiting area full hai,Non-Toxic,1,99,None,None,None,waiting area,none
+650,Lost and found counter,Non-Toxic,1,99,None,None,None,lost and found,none
+651,Bank Acc0unt Suspended Verify N0w,High-Risk Threat,70,94,Financial Fraud,High,IT Act 66,"account suspended, verify",phishing
+652,UPI Serv1ce Blocked Share PIN,High-Risk Threat,85,97,Financial Fraud,Critical,IT Act 66,"upi blocked, pin",otp_scam
+653,Refund Pending Click L1nk,High-Risk Threat,68,93,Financial Fraud,High,IT Act 66,"refund, click link",refund_scam
+654,DeliverY Failed Update Addr€ss,High-Risk Threat,65,92,Financial Fraud,High,IT Act 66,"delivery failed, address",fake_delivery
+655,KYC Update Requ1red Today,High-Risk Threat,72,94,Financial Fraud,High,IT Act 66,kyc update,kyc_fraud
+656,Paytm Walle† Fr0zen Reactivate,High-Risk Threat,74,95,Financial Fraud,High,IT Act 66,wallet frozen,phishing
+657,SBI Alert Unusual Login,High-Risk Threat,76,95,Financial Fraud,High,IT Act 66,"sbi alert, login",phishing
+658,OTP Exp1ring Share N0w,High-Risk Threat,88,97,Account Hacking,Critical,IT Act 66,otp expiring,otp_scam
+659,Cashback Awaiting Card Deta1ls,High-Risk Threat,71,94,Financial Fraud,High,IT Act 66,"cashback, card",refund_scam
+660,Tax Refund On Hold Verify,High-Risk Threat,73,95,Financial Fraud,High,IT Act 66,"tax refund, verify",phishing
+661,Electricity B1ll Unpaid Pay N0w,High-Risk Threat,69,93,Financial Fraud,High,IT Act 66,bill unpaid,utility_scam
+662,SIM Deact1vation Today,High-Risk Threat,70,94,Financial Fraud,High,IT Act 66,sim deactivation,phishing
+663,Aadhaar L1nk Update Needed,High-Risk Threat,72,94,Financial Fraud,High,IT Act 66,aadhaar link,kyc_fraud
+664,Crypto Wallet Compromised,High-Risk Threat,80,96,Financial Fraud,Critical,IT Act 66,crypto compromised,crypto_scam
+665,Loan Approved Pay Fee,High-Risk Threat,78,95,Financial Fraud,High,IT Act 66,"loan approved, fee",loan_scam
+666,Fastag Balance Low Pay,High-Risk Threat,67,92,Financial Fraud,High,IT Act 66,"fastag, pay",utility_scam
+667,Parcel Held Pay Custom Fee,High-Risk Threat,75,95,Financial Fraud,High,IT Act 66,"parcel held, customs",fake_delivery
+668,Bank Execut1ve Verify Acc,High-Risk Threat,82,96,Financial Fraud,Critical,IT Act 66,bank executive,impersonation
+669,Payment Gateway Revoked,High-Risk Threat,74,94,Financial Fraud,High,IT Act 66,gateway revoked,phishing
+670,Reward P0ints Exp1re Soon,High-Risk Threat,65,92,Financial Fraud,High,IT Act 66,reward expire,phishing
+671,Entry Gate No 4,Non-Toxic,1,99,None,None,None,entry gate,none
+672,TOTAL PAYABLE Rs 899,Non-Toxic,1,99,None,None,None,total payable,none
+673,Library Open T1ll 7PM,Non-Toxic,1,99,None,None,None,library open,none
+674,Silence Please,Non-Toxic,1,99,None,None,None,silence,none
+675,Staff Only Area,Non-Toxic,1,99,None,None,None,staff only,none
+676,Office Timing 10-5,Non-Toxic,1,99,None,None,None,office timing,none
+677,Platform No 2,Non-Toxic,1,99,None,None,None,platform no,none
+678,Waiting Area Full,Non-Toxic,1,99,None,None,None,waiting area,none
+679,Exam Hall Quiet Zone,Non-Toxic,1,99,None,None,None,exam hall,none
+680,Exit This Way,Non-Toxic,1,99,None,None,None,exit,none
+681,Recharge Failed Retry Payment,High-Risk Threat,70,93,Financial Fraud,High,IT Act 66,recharge failed,recharge_scam
+682,Mobile Hack Detected Pay,High-Risk Threat,78,95,Cyber Extortion,High,IT Act 66,mobile hack,cyber_extortion
+683,Dating App Match Alert,High-Risk Threat,65,92,Financial Fraud,High,IT Act 66,dating app,romance_scam
+684,Gift Card Used Refund Fee,High-Risk Threat,72,94,Financial Fraud,High,IT Act 66,gift card,giftcard_scam
+685,Account Flagged Act Now,High-Risk Threat,75,95,Financial Fraud,High,IT Act 66,account flagged,phishing
+686,Job Offer Fee Pending,High-Risk Threat,77,95,Financial Fraud,High,IT Act 66,job offer fee,fake_job
+687,Verification Failed Retry,High-Risk Threat,70,93,Financial Fraud,High,IT Act 66,verification failed,phishing
+688,Insurance Renewal Pay,High-Risk Threat,68,93,Financial Fraud,High,IT Act 66,insurance renewal,phishing
+689,Loan App Default Notice,High-Risk Threat,80,96,Extortion,High,IPC 384,loan app notice,loan_app_blackmail
+690,Wallet Balance On Hold,High-Risk Threat,72,94,Financial Fraud,High,IT Act 66,wallet hold,phishing
+691,Gate Closing Time 22:00,Non-Toxic,1,99,None,None,None,gate closing,none
+692,Bus Stop Ahead,Non-Toxic,1,99,None,None,None,bus stop,none
+693,Washroom Left Side,Non-Toxic,1,99,None,None,None,washroom,none
+694,Help Desk Open,Non-Toxic,1,99,None,None,None,help desk,none
+695,ID Card Required,Non-Toxic,1,99,None,None,None,id card,none
+696,Canteen Closed Today,Non-Toxic,1,99,None,None,None,canteen closed,none
+697,Room No 301,Non-Toxic,1,99,None,None,None,room number,none
+698,Lift Not Working,Non-Toxic,1,99,None,None,None,lift not working,none
+699,Parking Full,Non-Toxic,1,99,None,None,None,parking full,none
+700,Reception This Way,Non-Toxic,1,99,None,None,None,reception,none
+701,Crypto Profit Guaranteed,High-Risk Threat,82,96,Financial Fraud,Critical,IT Act 66,crypto profit,investment_scam
+702,Trading Loss Recover Fee,High-Risk Threat,78,95,Financial Fraud,High,IT Act 66,trading loss,trading_scam
+703,WhatsApp OTP Share Fast,High-Risk Threat,88,97,Account Hacking,Critical,IT Act 66,whatsapp otp,otp_scam
+704,UPI Collect Pending Accept,High-Risk Threat,75,95,Financial Fraud,High,IT Act 66,upi collect,upi_scam
+705,Dark Web Data Leak,High-Risk Threat,80,96,Cyber Extortion,High,IT Act 66,dark web leak,data_extortion
+706,Salary Credit Failed,High-Risk Threat,72,94,Financial Fraud,High,IT Act 66,salary failed,phishing
+707,Investment Return Due,High-Risk Threat,78,95,Financial Fraud,High,IT Act 66,investment return,investment_scam
+708,Amazon Refund Issue,High-Risk Threat,70,93,Financial Fraud,High,IT Act 66,amazon refund,refund_scam
+709,Account Upgrade Fee,High-Risk Threat,73,94,Financial Fraud,High,IT Act 66,upgrade fee,phishing
+710,Legal Action If Ignore,High-Risk Threat,85,97,Criminal Threat,Critical,IPC 506,legal action,extortion
+711,Fire Exit Route,Non-Toxic,1,99,None,None,None,fire exit,none
+712,Security Check Mandatory,Non-Toxic,1,99,None,None,None,security check,none
+713,Train Delayed 10 Min,Non-Toxic,1,99,None,None,None,train delayed,none
+714,Ticket Counter Closed,Non-Toxic,1,99,None,None,None,ticket counter,none
+715,Water Available Here,Non-Toxic,1,99,None,None,None,water available,none
+716,Seat No 24B,Non-Toxic,1,99,None,None,None,seat number,none
+717,Meeting Room 3,Non-Toxic,1,99,None,None,None,meeting room,none
+718,Form Submit Here,Non-Toxic,1,99,None,None,None,form submit,none
+719,Office Closed Sunday,Non-Toxic,1,99,None,None,None,office closed,none
+720,Emergency Exit,Non-Toxic,1,99,None,None,None,emergency exit,none
+721,Fake Screenshot Virus Alert,High-Risk Threat,77,95,Financial Fraud,High,IT Act 66,virus alert,tech_support_scam
+722,Phone Locked Pay Fee,High-Risk Threat,80,96,Cyber Extortion,High,IT Act 66,phone locked,tech_support_scam
+723,Google Support Call Now,High-Risk Threat,78,95,Impersonation,High,IT Act 66,google support,impersonation
+724,Bank Account Review,High-Risk Threat,72,94,Financial Fraud,High,IT Act 66,account review,phishing
+725,Prize Winning Claim Fee,High-Risk Threat,80,96,Financial Fraud,Critical,IT Act 66,prize claim,lottery_scam
+726,Electricity Meter Fine,High-Risk Threat,74,94,Financial Fraud,High,IT Act 66,meter fine,utility_scam
+727,Fast Loan Disbursement Fee,High-Risk Threat,82,96,Financial Fraud,Critical,IT Act 66,loan disbursement,loan_scam
+728,KYC Failed Retry Today,High-Risk Threat,75,95,Financial Fraud,High,IT Act 66,kyc failed,kyc_fraud
+729,UPI Cashback Expire,High-Risk Threat,70,93,Financial Fraud,High,IT Act 66,upi cashback,phishing
+730,Account Freeze Warning,High-Risk Threat,85,97,Financial Fraud,Critical,IT Act 66,account freeze,phishing
+731,Lost And Found,Non-Toxic,1,99,None,None,None,lost found,none
+732,No Smoking Area,Non-Toxic,1,99,None,None,None,no smoking,none
+733,Queue Here Please,Non-Toxic,1,99,None,None,None,queue,none
+734,Staff Entry Only,Non-Toxic,1,99,None,None,None,staff entry,none
+735,Exam Center Ahead,Non-Toxic,1,99,None,None,None,exam center,none
+736,Parking Zone B,Non-Toxic,1,99,None,None,None,parking zone,none
+737,Security Office,Non-Toxic,1,99,None,None,None,security office,none
+738,Lift Under Maintenance,Non-Toxic,1,99,None,None,None,lift maintenance,none
+739,Main Gate Closed,Non-Toxic,1,99,None,None,None,main gate,none
+740,Reception Desk,Non-Toxic,1,99,None,None,None,reception,none
+741,UPI Fraud Detected Pay,High-Risk Threat,82,96,Financial Fraud,Critical,IT Act 66,upi fraud,upi_scam
+742,Account Closure Today,High-Risk Threat,78,95,Financial Fraud,High,IT Act 66,account closure,phishing
+743,Investment Scheme Offer,High-Risk Threat,76,95,Financial Fraud,High,IT Act 66,investment scheme,investment_scam
+744,Password Reset Required,High-Risk Threat,72,94,Financial Fraud,High,IT Act 66,password reset,phishing
+745,Custom Fee Pending,High-Risk Threat,75,95,Financial Fraud,High,IT Act 66,custom fee,fake_delivery
+746,OTP Invalid Retry,High-Risk Threat,85,97,Account Hacking,Critical,IT Act 66,otp invalid,otp_scam
+747,Credit Card Suspended,High-Risk Threat,80,96,Financial Fraud,Critical,IT Act 66,credit card suspended,phishing
+748,Recharge Cashback Claim,High-Risk Threat,72,94,Financial Fraud,High,IT Act 66,cashback claim,refund_scam
+749,Device Compromised Alert,High-Risk Threat,78,95,Cyber Extortion,High,IT Act 66,device compromised,tech_support_scam
+750,Final Notice Pay Today,High-Risk Threat,88,97,Extortion,Critical,IPC 384,"final notice, pay",extortion
+751,"Hey buddy, can you pass me the charger?",Safe,3,95,None,None,None,""
+752,"Please reply when you're free, no rush.",Safe,2,96,None,None,None,""
+753,"You're kinda annoying when you keep repeating yourself.",Mild Toxicity,14,72,Online Harassment,Low,IPC 509,"annoying"
+754,"Stop being so irritating all the time.",Mild Toxicity,16,74,Online Harassment,Low,IPC 509,"irritating"
+755,"You're really getting on my nerves now.",Mild Toxicity,18,76,Online Harassment,Low,IPC 509,"nerves"
+756,"Why do you always act so dumb?",Mild Toxicity,20,78,Online Harassment,Low,IPC 509,"dumb"
+757,"Nobody actually likes talking to you.",Harassment,32,82,Online Harassment,Medium,IPC 509,"nobody likes"
+758,"You're completely useless at everything.",Harassment,35,84,Online Harassment,Medium,IPC 509,"useless"
+759,"Just disappear already, no one cares.",Harassment,38,86,Online Harassment,Medium,IPC 509,"disappear"
+760,"You're pathetic and everyone knows it.",Harassment,40,88,Online Harassment,Medium,IPC 509,"pathetic"
+761,"Shut up, you're embarrassing yourself.",Harassment,42,89,Online Harassment,Medium,IPC 509,"shut up, embarrassing"
+762,"You better watch what you say next.",High-Risk Threat,68,94,Criminal Threat,High,IPC 506,"watch what you say"
+763,"Ignore me one more time and you'll regret it.",High-Risk Threat,72,95,Criminal Threat,High,IPC 506,"regret"
+764,"This won't end well for you if you keep going.",High-Risk Threat,75,96,Criminal Threat,High,IPC 506,"won't end well"
+765,"You think you're safe? Think again.",High-Risk Threat,78,97,Criminal Threat,High,IPC 506,"safe"
+766,"I'll make sure you pay for this.",High-Risk Threat,82,98,Criminal Threat,Critical,IPC 506,"pay for this"
+767,"Your life is about to get very difficult.",High-Risk Threat,85,98,Criminal Threat,Critical,IPC 506,"difficult"
+768,"Keep talking and see what happens.",High-Risk Threat,88,98,Criminal Threat,Critical,IPC 506,"see what happens"
+769,"You have no idea what's coming for you.",High-Risk Threat,90,99,Criminal Threat,Critical,IPC 506,"coming for you"
+770,"This is your final warning, don't test me.",High-Risk Threat,92,99,Criminal Threat,Critical,IPC 506,"final warning"
+771,"Yo, can you help me with this quick?",Safe,4,94,None,None,None,""
+772,"Thanks in advance for the info!",Safe,3,95,None,None,None,""
+773,"You're being unnecessarily difficult.",Mild Toxicity,15,73,Online Harassment,Low,IPC 509,"difficult"
+774,"Stop wasting everyone's time.",Mild Toxicity,17,75,Online Harassment,Low,IPC 509,"wasting time"
+775,"Why are you always this annoying?",Mild Toxicity,19,77,Online Harassment,Low,IPC 509,"annoying"
+776,"You're honestly kind of a joke.",Harassment,33,82,Online Harassment,Medium,IPC 509,"joke"
+777,"No one takes you seriously anymore.",Harassment,36,84,Online Harassment,Medium,IPC 509,"no one takes seriously"
+778,"You're a complete failure at life.",Harassment,39,86,Online Harassment,Medium,IPC 509,"failure"
+779,"Just stop talking, you're worthless.",Harassment,41,88,Online Harassment,Medium,IPC 509,"worthless"
+780,"Everyone would be happier without you.",Harassment,43,89,Online Harassment,Medium,IPC 509,"happier without you"
+781,"You better back off right now.",High-Risk Threat,70,94,Criminal Threat,High,IPC 506,"back off"
+782,"One more word and you're finished.",High-Risk Threat,74,95,Criminal Threat,High,IPC 506,"finished"
+783,"You don't want to see what I can do.",High-Risk Threat,78,96,Criminal Threat,High,IPC 506,"what I can do"
+784,"Your time is running out fast.",High-Risk Threat,82,97,Criminal Threat,Critical,IPC 506,"running out"
+785,"I'll destroy everything you have.",High-Risk Threat,86,98,Criminal Threat,Critical,IPC 506,"destroy"
+786,"You can't hide forever.",High-Risk Threat,89,98,Criminal Threat,Critical,IPC 506,"hide"
+787,"This ends when I say it ends.",High-Risk Threat,91,99,Criminal Threat,Critical,IPC 506,"ends"
+788,"You should be very afraid right now.",High-Risk Threat,93,99,Criminal Threat,Critical,IPC 506,"afraid"
+789,"Please let me know when you arrive.",Safe,4,95,None,None,None,""
+790,"No worries if you're busy, just reply later.",Safe,3,96,None,None,None,""
+791,"You're starting to become really irritating.",Mild Toxicity,16,74,Online Harassment,Low,IPC 509,"irritating"
+792,"Stop being such a pain in the ass.",Mild Toxicity,20,78,Online Harassment,Low,IPC 509,"pain"
+793,"You're not as smart as you think.",Harassment,34,83,Online Harassment,Medium,IPC 509,"not smart"
+794,"Everyone laughs at you behind your back.",Harassment,37,85,Online Harassment,Medium,IPC 509,"laughs at you"
+795,"You're nothing but a disappointment.",Harassment,40,87,Online Harassment,Medium,IPC 509,"disappointment"
+796,"Just go away, you're useless.",Harassment,42,88,Online Harassment,Medium,IPC 509,"go away, useless"
+797,"You make everything worse.",Harassment,44,89,Online Harassment,Medium,IPC 509,"worse"
+798,"Keep pushing and you'll regret it badly.",High-Risk Threat,76,96,Criminal Threat,High,IPC 506,"regret badly"
+799,"Your luck is about to run out.",High-Risk Threat,80,97,Criminal Threat,Critical,IPC 506,"run out"
+800,"You have no idea who you're messing with.",High-Risk Threat,84,98,Criminal Threat,Critical,IPC 506,"messing with"
+801,"This will cost you everything.",High-Risk Threat,88,98,Criminal Threat,Critical,IPC 506,"cost everything"
+802,"I'll make your life hell.",High-Risk Threat,91,99,Criminal Threat,Critical,IPC 506,"life hell"
+803,"You can't run from this.",High-Risk Threat,93,99,Criminal Threat,Critical,IPC 506,"run"
+804,"Your worst nightmare is just beginning.",High-Risk Threat,95,99,Criminal Threat,Critical,IPC 506,"nightmare"
+805,"Hi, do you have a minute to chat?",Safe,3,95,None,None,None,""
+806,"Thanks for the quick response!",Safe,2,96,None,None,None,""
+807,"You're getting really frustrating now.",Mild Toxicity,15,73,Online Harassment,Low,IPC 509,"frustrating"
+808,"Why do you have to be so annoying?",Mild Toxicity,18,76,Online Harassment,Low,IPC 509,"annoying"
+809,"You're honestly pathetic sometimes.",Harassment,35,84,Online Harassment,Medium,IPC 509,"pathetic"
+810,"No one wants you around here.",Harassment,38,86,Online Harassment,Medium,IPC 509,"no one wants"
+811,"You're a total waste of space.",Harassment,41,88,Online Harassment,Medium,IPC 509,"waste of space"
+812,"Just shut your mouth already.",Harassment,43,89,Online Harassment,Medium,IPC 509,"shut your mouth"
+813,"You better stop before it's too late.",High-Risk Threat,72,95,Criminal Threat,High,IPC 506,"too late"
+814,"One more mistake and you're done.",High-Risk Threat,77,96,Criminal Threat,High,IPC 506,"done"
+815,"You won't see this coming.",High-Risk Threat,82,97,Criminal Threat,Critical,IPC 506,"see this coming"
+816,"I'll ruin you completely.",High-Risk Threat,86,98,Criminal Threat,Critical,IPC 506,"ruin completely"
+817,"Your days are numbered.",High-Risk Threat,89,98,Criminal Threat,Critical,IPC 506,"numbered"
+818,"You should start running now.",High-Risk Threat,92,99,Criminal Threat,Critical,IPC 506,"running"
+819,"This ends very badly for you.",High-Risk Threat,94,99,Criminal Threat,Critical,IPC 506,"ends badly"
+820,"You're finished if you continue.",High-Risk Threat,96,99,Criminal Threat,Critical,IPC 506,"finished"
+821,"Can you send me the document please?",Safe,4,94,None,None,None,""
+822,"Let me know when you're available.",Safe,3,95,None,None,None,""
+823,"You're becoming quite irritating lately.",Mild Toxicity,16,74,Online Harassment,Low,IPC 509,"irritating"
+824,"Stop acting so stupid all the time.",Mild Toxicity,19,77,Online Harassment,Low,IPC 509,"stupid"
+825,"You're a joke to everyone.",Harassment,34,83,Online Harassment,Medium,IPC 509,"joke"
+826,"No one respects you anymore.",Harassment,37,85,Online Harassment,Medium,IPC 509,"respects"
+827,"You're completely worthless.",Harassment,40,87,Online Harassment,Medium,IPC 509,"worthless"
+828,"Just leave, you're not needed.",Harassment,42,88,Online Harassment,Medium,IPC 509,"leave"
+829,"You better be careful what you do next.",High-Risk Threat,74,95,Criminal Threat,High,IPC 506,"be careful"
+830,"Ignore this and you'll pay dearly.",High-Risk Threat,79,96,Criminal Threat,High,IPC 506,"pay dearly"
+831,"Your time is almost up.",High-Risk Threat,83,97,Criminal Threat,Critical,IPC 506,"time up"
+832,"I'll make sure you suffer.",High-Risk Threat,87,98,Criminal Threat,Critical,IPC 506,"suffer"
+833,"You can't escape what's coming.",High-Risk Threat,90,99,Criminal Threat,Critical,IPC 506,"escape"
+834,"This is going to hurt you badly.",High-Risk Threat,93,99,Criminal Threat,Critical,IPC 506,"hurt badly"
+835,"Your life ends here if you don't stop.",High-Risk Threat,95,99,Criminal Threat,Critical,IPC 506,"life ends"
+836,"Please don't message me again.",Safe,5,94,None,None,None,""
+837,"Thanks for understanding.",Safe,3,96,None,None,None,""
+838,"You're really starting to annoy me.",Mild Toxicity,17,75,Online Harassment,Low,IPC 509,"annoy"
+839,"Why are you always this dumb?",Mild Toxicity,20,78,Online Harassment,Low,IPC 509,"dumb"
+840,"You're embarrassing to be around.",Harassment,36,84,Online Harassment,Medium,IPC 509,"embarrassing"
+841,"Everyone thinks you're a loser.",Harassment,39,86,Online Harassment,Medium,IPC 509,"loser"
+842,"You're nothing special, just stop.",Harassment,42,88,Online Harassment,Medium,IPC 509,"nothing special"
+843,"Just go away forever.",Harassment,44,89,Online Harassment,Medium,IPC 509,"go away"
+844,"You better stop now or else.",High-Risk Threat,75,95,Criminal Threat,High,IPC 506,"or else"
+845,"One more time and it's over.",High-Risk Threat,80,96,Criminal Threat,High,IPC 506,"over"
+846,"You won't like what happens next.",High-Risk Threat,84,97,Criminal Threat,Critical,IPC 506,"next"
+847,"I'll destroy you piece by piece.",High-Risk Threat,88,98,Criminal Threat,Critical,IPC 506,"destroy"
+848,"Your worst days are coming.",High-Risk Threat,91,99,Criminal Threat,Critical,IPC 506,"worst days"
+849,"You can't hide from me.",High-Risk Threat,93,99,Criminal Threat,Critical,IPC 506,"hide"
+850,"This is the end for you.",High-Risk Threat,96,99,Criminal Threat,Critical,IPC 506,"end"
+851,"Hey, everything okay on your side?",Safe,4,95,None,None,None,""
+852,"Let me know if you need anything.",Safe,3,96,None,None,None,""
+853,"You're getting really frustrating.",Mild Toxicity,16,74,Online Harassment,Low,IPC 509,"frustrating"
+854,"Stop being so annoying please.",Mild Toxicity,18,76,Online Harassment,Low,IPC 509,"annoying"
+855,"You're kind of pathetic actually.",Harassment,35,84,Online Harassment,Medium,IPC 509,"pathetic"
+856,"No one wants to hear you.",Harassment,38,86,Online Harassment,Medium,IPC 509,"no one wants"
+857,"You're a total failure.",Harassment,41,88,Online Harassment,Medium,IPC 509,"failure"
+858,"Just shut up already.",Harassment,43,89,Online Harassment,Medium,IPC 509,"shut up"
+859,"You better think twice.",High-Risk Threat,72,95,Criminal Threat,High,IPC 506,"think twice"
+860,"One wrong move and you're done.",High-Risk Threat,77,96,Criminal Threat,High,IPC 506,"done"
+861,"You have no escape.",High-Risk Threat,82,97,Criminal Threat,Critical,IPC 506,"escape"
+862,"I'll make you regret everything.",High-Risk Threat,86,98,Criminal Threat,Critical,IPC 506,"regret everything"
+863,"Your time is running out fast.",High-Risk Threat,90,99,Criminal Threat,Critical,IPC 506,"running out"
+864,"You should be terrified.",High-Risk Threat,93,99,Criminal Threat,Critical,IPC 506,"terrified"
+865,"This ends badly for you.",High-Risk Threat,95,99,Criminal Threat,Critical,IPC 506,"ends badly"
+866,"Please confirm when you receive this.",Safe,4,94,None,None,None,""
+867,"No problem if you're busy.",Safe,3,95,None,None,None,""
+868,"You're becoming super annoying.",Mild Toxicity,17,75,Online Harassment,Low,IPC 509,"annoying"
+869,"Why are you so irritating?",Mild Toxicity,19,77,Online Harassment,Low,IPC 509,"irritating"
+870,"You're honestly a joke.",Harassment,34,83,Online Harassment,Medium,IPC 509,"joke"
+871,"People laugh at you.",Harassment,37,85,Online Harassment,Medium,IPC 509,"laugh"
+872,"You're completely useless.",Harassment,40,87,Online Harassment,Medium,IPC 509,"useless"
+873,"Just leave everyone alone.",Harassment,42,88,Online Harassment,Medium,IPC 509,"leave alone"
+874,"You better stop immediately.",High-Risk Threat,74,95,Criminal Threat,High,IPC 506,"stop immediately"
+875,"One more and you're finished.",High-Risk Threat,79,96,Criminal Threat,High,IPC 506,"finished"
+876,"You won't see it coming.",High-Risk Threat,83,97,Criminal Threat,Critical,IPC 506,"coming"
+877,"I'll ruin your whole life.",High-Risk Threat,87,98,Criminal Threat,Critical,IPC 506,"ruin life"
+878,"Your nightmare starts now.",High-Risk Threat,91,99,Criminal Threat,Critical,IPC 506,"nightmare"
+879,"You can't run forever.",High-Risk Threat,93,99,Criminal Threat,Critical,IPC 506,"run"
+880,"This is your last chance.",High-Risk Threat,96,99,Criminal Threat,Critical,IPC 506,"last chance"
+881,"Hey, hope you're doing well!",Safe,3,96,None,None,None,""
+882,"Thanks for your help earlier.",Safe,4,95,None,None,None,""
+883,"You're starting to annoy everyone.",Mild Toxicity,16,74,Online Harassment,Low,IPC 509,"annoy"
+884,"Stop acting dumb.",Mild Toxicity,18,76,Online Harassment,Low,IPC 509,"dumb"
+885,"You're pathetic honestly.",Harassment,35,84,Online Harassment,Medium,IPC 509,"pathetic"
+886,"No one cares about you.",Harassment,38,86,Online Harassment,Medium,IPC 509,"no one cares"
+887,"You're a waste of time.",Harassment,41,88,Online Harassment,Medium,IPC 509,"waste"
+888,"Just go away.",Harassment,43,89,Online Harassment,Medium,IPC 509,"go away"
+889,"You better watch yourself.",High-Risk Threat,73,95,Criminal Threat,High,IPC 506,"watch yourself"
+890,"One more step and it's over.",High-Risk Threat,78,96,Criminal Threat,High,IPC 506,"over"
+891,"You have no way out.",High-Risk Threat,82,97,Criminal Threat,Critical,IPC 506,"no way out"
+892,"I'll make sure you suffer.",High-Risk Threat,86,98,Criminal Threat,Critical,IPC 506,"suffer"
+893,"Your days are over.",High-Risk Threat,90,99,Criminal Threat,Critical,IPC 506,"days over"
+894,"Be scared, very scared.",High-Risk Threat,93,99,Criminal Threat,Critical,IPC 506,"scared"
+895,"This is the end.",High-Risk Threat,95,99,Criminal Threat,Critical,IPC 506,"end"
+896,"Can we talk later?",Safe,4,94,None,None,None,""
+897,"Appreciate your quick reply.",Safe,3,95,None,None,None,""
+898,"You're getting on my last nerve.",Mild Toxicity,17,75,Online Harassment,Low,IPC 509,"last nerve"
+899,"Stop being annoying.",Mild Toxicity,19,77,Online Harassment,Low,IPC 509,"annoying"
+900,"You're a total loser.",Harassment,36,84,Online Harassment,Medium,IPC 509,"loser"
+901,"Nobody likes you.",Harassment,39,86,Online Harassment,Medium,IPC 509,"nobody likes"
+902,"You're worthless.",Harassment,42,88,Online Harassment,Medium,IPC 509,"worthless"
+903,"Just disappear.",Harassment,44,89,Online Harassment,Medium,IPC 509,"disappear"
+904,"You better stop talking.",High-Risk Threat,74,95,Criminal Threat,High,IPC 506,"stop talking"
+905,"One more and you're gone.",High-Risk Threat,79,96,Criminal Threat,High,IPC 506,"gone"
+906,"You won't survive this.",High-Risk Threat,83,97,Criminal Threat,Critical,IPC 506,"survive"
+907,"I'll destroy you.",High-Risk Threat,87,98,Criminal Threat,Critical,IPC 506,"destroy"
+908,"Your time is up.",High-Risk Threat,91,99,Criminal Threat,Critical,IPC 506,"time up"
+909,"You can't escape me.",High-Risk Threat,93,99,Criminal Threat,Critical,IPC 506,"escape"
+910,"This ends now.",High-Risk Threat,96,99,Criminal Threat,Critical,IPC 506,"ends now"
+911,"Please keep me updated.",Safe,4,95,None,None,None,""
+912,"Thanks a lot!",Safe,3,96,None,None,None,""
+913,"You're quite irritating sometimes.",Mild Toxicity,16,74,Online Harassment,Low,IPC 509,"irritating"
+914,"Stop acting stupid.",Mild Toxicity,18,76,Online Harassment,Low,IPC 509,"stupid"
+915,"You're pathetic.",Harassment,35,84,Online Harassment,Medium,IPC 509,"pathetic"
+916,"No one wants you here.",Harassment,38,86,Online Harassment,Medium,IPC 509,"no one wants"
+917,"You're useless.",Harassment,41,88,Online Harassment,Medium,IPC 509,"useless"
+918,"Just leave.",Harassment,43,89,Online Harassment,Medium,IPC 509,"leave"
+919,"You better be careful.",High-Risk Threat,73,95,Criminal Threat,High,IPC 506,"careful"
+920,"One more mistake and done.",High-Risk Threat,78,96,Criminal Threat,High,IPC 506,"done"
+921,"You have no future.",High-Risk Threat,82,97,Criminal Threat,Critical,IPC 506,"no future"
+922,"I'll ruin everything.",High-Risk Threat,86,98,Criminal Threat,Critical,IPC 506,"ruin"
+923,"Your end is near.",High-Risk Threat,90,99,Criminal Threat,Critical,IPC 506,"end near"
+924,"Be very afraid.",High-Risk Threat,93,99,Criminal Threat,Critical,IPC 506,"afraid"
+925,"This is over for you.",High-Risk Threat,95,99,Criminal Threat,Critical,IPC 506,"over"
+926,"Let me know if you need help.",Safe,4,94,None,None,None,""
+927,"Hope all is good!",Safe,3,95,None,None,None,""
+928,"You're starting to annoy me a lot.",Mild Toxicity,17,75,Online Harassment,Low,IPC 509,"annoy"
+929,"Stop being dumb.",Mild Toxicity,19,77,Online Harassment,Low,IPC 509,"dumb"
+930,"You're a joke.",Harassment,34,83,Online Harassment,Medium,IPC 509,"joke"
+931,"People laugh at you.",Harassment,37,85,Online Harassment,Medium,IPC 509,"laugh"
+932,"You're worthless.",Harassment,40,87,Online Harassment,Medium,IPC 509,"worthless"
+933,"Just go.",Harassment,42,88,Online Harassment,Medium,IPC 509,"go"
+934,"You better watch out.",High-Risk Threat,74,95,Criminal Threat,High,IPC 506,"watch out"
+935,"One more and finished.",High-Risk Threat,79,96,Criminal Threat,High,IPC 506,"finished"
+936,"You can't hide.",High-Risk Threat,83,97,Criminal Threat,Critical,IPC 506,"hide"
+937,"I'll make you pay.",High-Risk Threat,87,98,Criminal Threat,Critical,IPC 506,"pay"
+938,"Your time is gone.",High-Risk Threat,91,99,Criminal Threat,Critical,IPC 506,"time gone"
+939,"You should run.",High-Risk Threat,93,99,Criminal Threat,Critical,IPC 506,"run"
+940,"This is the end.",High-Risk Threat,96,99,Criminal Threat,Critical,IPC 506,"end"
+941,"Hey, what's up?",Safe,4,95,None,None,None,""
+942,"Thanks for the update!",Safe,3,96,None,None,None,""
+943,"You're getting annoying again.",Mild Toxicity,16,74,Online Harassment,Low,IPC 509,"annoying"
+944,"Stop being stupid.",Mild Toxicity,18,76,Online Harassment,Low,IPC 509,"stupid"
+945,"You're pathetic honestly.",Harassment,35,84,Online Harassment,Medium,IPC 509,"pathetic"
+946,"No one likes you.",Harassment,38,86,Online Harassment,Medium,IPC 509,"no one likes"
+947,"You're a failure.",Harassment,41,88,Online Harassment,Medium,IPC 509,"failure"
+948,"Just disappear.",Harassment,43,89,Online Harassment,Medium,IPC 509,"disappear"
+949,"You better stop.",High-Risk Threat,73,95,Criminal Threat,High,IPC 506,"stop"
+950,"One more and over.",High-Risk Threat,78,96,Criminal Threat,High,IPC 506,"over"
+951,"You won't escape.",High-Risk Threat,82,97,Criminal Threat,Critical,IPC 506,"escape"
+952,"I'll destroy you.",High-Risk Threat,86,98,Criminal Threat,Critical,IPC 506,"destroy"
+953,"Your end is coming.",High-Risk Threat,90,99,Criminal Threat,Critical,IPC 506,"end coming"
+954,"Be scared.",High-Risk Threat,93,99,Criminal Threat,Critical,IPC 506,"scared"
+955,"This is finished.",High-Risk Threat,95,99,Criminal Threat,Critical,IPC 506,"finished"
+956,"Please reply soon.",Safe,4,94,None,None,None,""
+957,"No hurry, whenever you're free.",Safe,3,95,None,None,None,""
+958,"You're becoming irritating.",Mild Toxicity,17,75,Online Harassment,Low,IPC 509,"irritating"
+959,"Stop acting dumb.",Mild Toxicity,19,77,Online Harassment,Low,IPC 509,"dumb"
+960,"You're a total joke.",Harassment,36,84,Online Harassment,Medium,IPC 509,"joke"
+961,"Everyone ignores you.",Harassment,39,86,Online Harassment,Medium,IPC 509,"ignores"
+962,"You're useless.",Harassment,42,88,Online Harassment,Medium,IPC 509,"useless"
+963,"Just leave now.",Harassment,44,89,Online Harassment,Medium,IPC 509,"leave"
+964,"You better be careful.",High-Risk Threat,74,95,Criminal Threat,High,IPC 506,"careful"
+965,"One more mistake and done.",High-Risk Threat,79,96,Criminal Threat,High,IPC 506,"done"
+966,"You have no chance.",High-Risk Threat,83,97,Criminal Threat,Critical,IPC 506,"no chance"
+967,"I'll ruin you.",High-Risk Threat,87,98,Criminal Threat,Critical,IPC 506,"ruin"
+968,"Your time is up.",High-Risk Threat,91,99,Criminal Threat,Critical,IPC 506,"time up"
+969,"You can't hide.",High-Risk Threat,93,99,Criminal Threat,Critical,IPC 506,"hide"
+970,"This ends here.",High-Risk Threat,96,99,Criminal Threat,Critical,IPC 506,"ends"
+971,"Hope you're doing good.",Safe,4,95,None,None,None,""
+972,"Thanks for the help!",Safe,3,96,None,None,None,""
+973,"You're getting on nerves again.",Mild Toxicity,16,74,Online Harassment,Low,IPC 509,"nerves"
+974,"Stop being annoying.",Mild Toxicity,18,76,Online Harassment,Low,IPC 509,"annoying"
+975,"You're pathetic.",Harassment,35,84,Online Harassment,Medium,IPC 509,"pathetic"
+976,"No one wants you.",Harassment,38,86,Online Harassment,Medium,IPC 509,"no one wants"
+977,"You're worthless.",Harassment,41,88,Online Harassment,Medium,IPC 509,"worthless"
+978,"Just go away.",Harassment,43,89,Online Harassment,Medium,IPC 509,"go away"
+979,"You better watch out.",High-Risk Threat,73,95,Criminal Threat,High,IPC 506,"watch out"
+980,"One more and finished.",High-Risk Threat,78,96,Criminal Threat,High,IPC 506,"finished"
+981,"You won't survive.",High-Risk Threat,82,97,Criminal Threat,Critical,IPC 506,"survive"
+982,"I'll destroy everything.",High-Risk Threat,86,98,Criminal Threat,Critical,IPC 506,"destroy"
+983,"Your end is near.",High-Risk Threat,90,99,Criminal Threat,Critical,IPC 506,"end near"
+984,"Be very afraid.",High-Risk Threat,93,99,Criminal Threat,Critical,IPC 506,"afraid"
+985,"This is the end.",High-Risk Threat,95,99,Criminal Threat,Critical,IPC 506,"end"
+986,"Let me know if you need anything.",Safe,4,94,None,None,None,""
+987,"Thanks a ton!",Safe,3,95,None,None,None,""
+988,"You're becoming super annoying.",Mild Toxicity,17,75,Online Harassment,Low,IPC 509,"annoying"
+989,"Stop acting like an idiot.",Mild Toxicity,19,77,Online Harassment,Low,IPC 509,"idiot"
+990,"You're a complete loser.",Harassment,36,84,Online Harassment,Medium,IPC 509,"loser"
+991,"Nobody respects you.",Harassment,39,86,Online Harassment,Medium,IPC 509,"respects"
+992,"You're nothing.",Harassment,42,88,Online Harassment,Medium,IPC 509,"nothing"
+993,"Just disappear already.",Harassment,44,89,Online Harassment,Medium,IPC 509,"disappear"
+994,"You better stop now.",High-Risk Threat,74,95,Criminal Threat,High,IPC 506,"stop now"
+995,"One more and you're gone.",High-Risk Threat,79,96,Criminal Threat,High,IPC 506,"gone"
+996,"You can't run.",High-Risk Threat,83,97,Criminal Threat,Critical,IPC 506,"run"
+997,"I'll make you pay.",High-Risk Threat,87,98,Criminal Threat,Critical,IPC 506,"pay"
+998,"Your time is finished.",High-Risk Threat,91,99,Criminal Threat,Critical,IPC 506,"time finished"
+999,"You should be scared.",High-Risk Threat,93,99,Criminal Threat,Critical,IPC 506,"scared"
+1000,"This ends badly.",High-Risk Threat,96,99,Criminal Threat,Critical,IPC 506,"ends badly"
+1001,"You're the most disgusting, worthless maggot I've ever seen in my life.",Harassment,55,90,Online Harassment,Medium,IPC 509,"disgusting, worthless, maggot"
+1002,"Die in a fire you pathetic, spineless piece of human garbage.",High-Risk Threat,82,97,Criminal Threat,Critical,IPC 506,"die in a fire, garbage"
+1003,"Your existence makes me want to vomit, you revolting cockroach.",Harassment,58,91,Online Harassment,Medium,IPC 509,"vomit, cockroach"
+1004,"You're a walking abortion that somehow survived, absolute filth.",Harassment,62,93,Online Harassment,Medium,IPC 509,"abortion, filth"
+1005,"I hope your entire bloodline gets cancer and dies screaming.",High-Risk Threat,88,98,Criminal Threat,Critical,IPC 506,"cancer, dies screaming"
+1006,"You're so fucking repulsive even maggots would spit on your corpse.",Harassment,65,94,Online Harassment,Medium,IPC 509,"repulsive, maggots, corpse"
+1007,"Kill yourself slowly you useless, inbred, shit-stained failure.",High-Risk Threat,92,99,Criminal Threat,Critical,IPC 506,"kill yourself, failure"
+1008,"Your mother should have swallowed you, you miserable cum-stain.",Harassment,68,95,Online Harassment,Medium,IPC 509,"swallowed, cum-stain"
+1009,"You're the human equivalent of a festering open sewer.",Harassment,60,92,Online Harassment,Medium,IPC 509,"festering, sewer"
+1010,"I hope you get hit by a truck and suffer for months before dying.",High-Risk Threat,90,98,Criminal Threat,Critical,IPC 506,"truck, suffer, dying"
+1011,"You're a brain-dead, drooling, mouth-breathing waste of oxygen.",Harassment,63,93,Online Harassment,Medium,IPC 509,"brain-dead, waste"
+1012,"Your face looks like it caught fire and someone tried to put it out with a fork.",Harassment,57,91,Online Harassment,Medium,IPC 509,"face, fire"
+1013,"Every time you speak God lets another angel commit suicide.",Harassment,66,94,Online Harassment,Medium,IPC 509,"angel, suicide"
+1014,"You're so ugly your birth certificate is an apology letter from the condom factory.",Harassment,59,92,Online Harassment,Medium,IPC 509,"ugly, apology"
+1015,"I hope your genitals get gangrene and fall off while you're still conscious.",High-Risk Threat,89,98,Criminal Threat,Critical,IPC 506,"gangrene, conscious"
+1016,"You're the reason birth control exists, you genetic disaster.",Harassment,61,93,Online Harassment,Medium,IPC 509,"genetic disaster"
+1017,"Your parents should have used a coat hanger instead of having you.",Harassment,67,95,Online Harassment,Medium,IPC 509,"coat hanger"
+1018,"You're a walking argument for retroactive abortion.",Harassment,64,94,Online Harassment,Medium,IPC 509,"retroactive abortion"
+1019,"I hope you choke on your own vomit and die alone in your own shit.",High-Risk Threat,91,99,Criminal Threat,Critical,IPC 506,"choke, die alone"
+1020,"You're such a failure even your imaginary friends left you.",Harassment,52,89,Online Harassment,Medium,IPC 509,"failure, imaginary friends"
+1021,"Your life is so pathetic even your suicide note would be boring.",Harassment,69,95,Online Harassment,Medium,IPC 509,"suicide note"
+1022,"You're the human version of a participation trophy made of dog shit.",Harassment,60,92,Online Harassment,Medium,IPC 509,"dog shit"
+1023,"I hope you get ebola and your organs liquefy while you're still breathing.",High-Risk Threat,93,99,Criminal Threat,Critical,IPC 506,"ebola, liquefy"
+1024,"You're so stupid you could fuck up a wet dream.",Harassment,54,90,Online Harassment,Medium,IPC 509,"stupid"
+1025,"Your birth was a crime against humanity.",Harassment,58,91,Online Harassment,Medium,IPC 509,"crime against humanity"
+1026,"You're the reason they put instructions on shampoo bottles.",Harassment,50,88,Online Harassment,Low,IPC 509,"shampoo"
+1027,"I hope your children are born with your face.",Harassment,56,91,Online Harassment,Medium,IPC 509,"born with your face"
+1028,"You're such a waste of skin even taxidermists wouldn't want you.",Harassment,62,93,Online Harassment,Medium,IPC 509,"waste of skin"
+1029,"Your existence is an insult to every aborted fetus.",Harassment,65,94,Online Harassment,Medium,IPC 509,"aborted fetus"
+1030,"I hope you fall into a woodchipper feet first and scream for days.",High-Risk Threat,94,99,Criminal Threat,Critical,IPC 506,"woodchipper, scream"
+1031,"You're the reason God created the middle finger.",Harassment,48,87,Online Harassment,Low,IPC 509,"middle finger"
+1032,"Your mother should have had an abortion, but she was too stupid.",Harassment,63,93,Online Harassment,Medium,IPC 509,"abortion, stupid"
+1033,"You're so ugly when you look in the mirror your reflection files for restraining order.",Harassment,59,92,Online Harassment,Medium,IPC 509,"ugly, reflection"
+1034,"I hope you get raped by a pack of rabid dogs and live to remember it.",High-Risk Threat,95,99,Criminal Threat,Critical,IPC 506,"raped, rabid dogs"
+1035,"You're the human equivalent of period blood mixed with diarrhea.",Harassment,66,94,Online Harassment,Medium,IPC 509,"period blood, diarrhea"
+1036,"Your parents are siblings, right? That explains everything.",Harassment,61,93,Online Harassment,Medium,IPC 509,"siblings"
+1037,"You're so worthless even orphans have more self-respect than you.",Harassment,57,91,Online Harassment,Medium,IPC 509,"worthless"
+1038,"I hope you get tortured for years before they finally let you die.",High-Risk Threat,96,99,Criminal Threat,Critical,IPC 506,"tortured, die"
+1039,"You're the reason some animals eat their young.",Harassment,55,90,Online Harassment,Medium,IPC 509,"eat their young"
+1040,"Your life is proof that natural selection sometimes takes a coffee break.",Harassment,53,89,Online Harassment,Medium,IPC 509,"natural selection"
+1041,"You're so disgusting even STDs wouldn't touch you.",Harassment,64,94,Online Harassment,Medium,IPC 509,"disgusting, STDs"
+1042,"I hope your dick falls off and your mom uses it as a toothpick.",High-Risk Threat,92,99,Criminal Threat,Critical,IPC 506,"dick falls off"
+1043,"You're the human version of a used tampon left in the sun for a week.",Harassment,68,95,Online Harassment,Medium,IPC 509,"used tampon"
+1044,"Your face looks like it was designed by committee during a power outage.",Harassment,56,91,Online Harassment,Medium,IPC 509,"face"
+1045,"You're so stupid you think Taco Bell is a Mexican phone company.",Harassment,50,88,Online Harassment,Low,IPC 509,"stupid"
+1046,"I hope you die alone surrounded by people who hate you.",High-Risk Threat,90,98,Criminal Threat,Critical,IPC 506,"die alone"
+1047,"You're the reason warning labels exist on dangerous products.",Harassment,54,90,Online Harassment,Medium,IPC 509,"warning labels"
+1048,"Your birth was a medical error that somehow survived.",Harassment,62,93,Online Harassment,Medium,IPC 509,"medical error"
+1049,"I hope you get slowly skinned alive while fully conscious.",High-Risk Threat,97,99,Criminal Threat,Critical,IPC 506,"skinned alive"
+1050,"You're so ugly blind people run away screaming when you approach.",Harassment,60,92,Online Harassment,Medium,IPC 509,"ugly, blind people"
+1051,"Your parents should be in jail for not using contraception.",Harassment,65,94,Online Harassment,Medium,IPC 509,"contraception"
+1052,"You're the living proof that evolution can go backwards.",Harassment,58,91,Online Harassment,Medium,IPC 509,"evolution"
+1053,"I hope your entire family gets murdered in front of you.",High-Risk Threat,94,99,Criminal Threat,Critical,IPC 506,"family murdered"
+1054,"You're so repulsive even your hand refuses to jerk you off.",Harassment,67,95,Online Harassment,Medium,IPC 509,"repulsive"
+1055,"Your existence is an argument for compulsory sterilization.",Harassment,63,93,Online Harassment,Medium,IPC 509,"sterilization"
+1056,"You're the reason some people support post-birth abortion.",Harassment,66,94,Online Harassment,Medium,IPC 509,"post-birth abortion"
+1057,"I hope you get crucified upside-down and left to bleed out slowly.",High-Risk Threat,96,99,Criminal Threat,Critical,IPC 506,"crucified, bleed out"
+1058,"You're so stupid you could drown in a puddle of your own drool.",Harassment,52,89,Online Harassment,Medium,IPC 509,"stupid, drool"
+1059,"Your face is why people believe in demons.",Harassment,59,92,Online Harassment,Medium,IPC 509,"face, demons"
+1060,"You're such a failure even your depression has depression.",Harassment,61,93,Online Harassment,Medium,IPC 509,"failure, depression"
+1061,"I hope you get acid thrown in your face every morning for the rest of your life.",High-Risk Threat,98,99,Criminal Threat,Critical,IPC 506,"acid thrown"
+1062,"You're the human version of expired milk left in the sun.",Harassment,64,94,Online Harassment,Medium,IPC 509,"expired milk"
+1063,"Your parents must have been drunk when they decided to keep you.",Harassment,57,91,Online Harassment,Medium,IPC 509,"drunk"
+1064,"You're so ugly when you cry the tears run the other way.",Harassment,55,90,Online Harassment,Medium,IPC 509,"ugly, cry"
+1065,"I hope you get slowly dissolved in acid while watching your family die first.",High-Risk Threat,99,99,Criminal Threat,Critical,IPC 506,"dissolved in acid"
+1066,"You're the reason vasectomies should be mandatory for some bloodlines.",Harassment,68,95,Online Harassment,Medium,IPC 509,"vasectomies"
+1067,"Your life is so pathetic even your suicide would be considered a cry for help.",Harassment,62,93,Online Harassment,Medium,IPC 509,"suicide"
+1068,"You're so disgusting even flies avoid landing on your shit.",Harassment,65,94,Online Harassment,Medium,IPC 509,"disgusting, flies"
+1069,"I hope you get your limbs torn off one by one while still conscious.",High-Risk Threat,97,99,Criminal Threat,Critical,IPC 506,"limbs torn off"
+1070,"You're the human equivalent of a porta-potty at a chili cook-off.",Harassment,60,92,Online Harassment,Medium,IPC 509,"porta-potty"
+1071,"Your birth certificate should have come with an expiration date.",Harassment,58,91,Online Harassment,Medium,IPC 509,"birth certificate"
+1072,"You're so stupid you could get lost in a round room.",Harassment,51,89,Online Harassment,Low,IPC 509,"stupid"
+1073,"I hope you get fed your own intestines while they're still attached.",High-Risk Threat,98,99,Criminal Threat,Critical,IPC 506,"intestines"
+1074,"You're the reason some countries have one-child policies.",Harassment,56,91,Online Harassment,Medium,IPC 509,"one-child"
+1075,"Your face looks like someone tried to put out a forest fire with a sledgehammer.",Harassment,63,93,Online Harassment,Medium,IPC 509,"face, sledgehammer"
+1076,"You're so worthless even your shadow leaves when the lights go out.",Harassment,54,90,Online Harassment,Medium,IPC 509,"worthless, shadow"
+1077,"I hope you die of a disease so rare they name it after you.",High-Risk Threat,95,99,Criminal Threat,Critical,IPC 506,"die of disease"
+1078,"You're the human version of a cum-rag left in a hot car for a month.",Harassment,69,95,Online Harassment,Medium,IPC 509,"cum-rag"
+1079,"Your parents should have named you 'Regret'.",Harassment,59,92,Online Harassment,Medium,IPC 509,"regret"
+1080,"You're so ugly even mirrors crack when you look at them.",Harassment,61,93,Online Harassment,Medium,IPC 509,"ugly, mirrors"
+1081,"I hope you get slowly crushed by a hydraulic press while fully awake.",High-Risk Threat,99,99,Criminal Threat,Critical,IPC 506,"crushed, hydraulic press"
+1082,"You're the reason God allows abortions.",Harassment,57,91,Online Harassment,Medium,IPC 509,"abortions"
+1083,"Your existence is proof that some mistakes should be erased.",Harassment,64,94,Online Harassment,Medium,IPC 509,"mistakes"
+1084,"You're so pathetic your suicide note would need a co-signer.",Harassment,66,94,Online Harassment,Medium,IPC 509,"suicide note"
+1085,"I hope you get your eyes gouged out and forced to eat them.",High-Risk Threat,98,99,Criminal Threat,Critical,IPC 506,"eyes gouged, eat them"
+1086,"You're the human equivalent of a dumpster fire made of used diapers.",Harassment,68,95,Online Harassment,Medium,IPC 509,"dumpster fire"
+1087,"Your mother should have swallowed instead of giving birth to a monster.",Harassment,65,94,Online Harassment,Medium,IPC 509,"swallowed, monster"
+1088,"You're so stupid you think the internet is a place you can visit.",Harassment,52,89,Online Harassment,Medium,IPC 509,"stupid"
+1089,"I hope you get buried alive and hear people dancing on your grave.",High-Risk Threat,96,99,Criminal Threat,Critical,IPC 506,"buried alive"
+1090,"You're the reason some species eat their young.",Harassment,60,92,Online Harassment,Medium,IPC 509,"eat their young"
+1091,"Your face is why some animals commit suicide.",Harassment,62,93,Online Harassment,Medium,IPC 509,"face, suicide"
+1092,"You're so disgusting even your own shit wants to escape you.",Harassment,67,95,Online Harassment,Medium,IPC 509,"disgusting, shit"
+1093,"I hope you get your tongue cut out and fed back to you.",High-Risk Threat,97,99,Criminal Threat,Critical,IPC 506,"tongue cut out"
+1094,"You're the human version of a rotting foot left in a wet sock.",Harassment,64,94,Online Harassment,Medium,IPC 509,"rotting foot"
+1095,"Your birth was humanity's biggest mistake.",Harassment,59,92,Online Harassment,Medium,IPC 509,"mistake"
+1096,"You're so ugly even your mom calls you 'it'.",Harassment,55,90,Online Harassment,Medium,IPC 509,"ugly"
+1097,"I hope you get slowly burned alive while your family watches.",High-Risk Threat,98,99,Criminal Threat,Critical,IPC 506,"burned alive"
+1098,"You're the reason vasectomy should be compulsory for some people.",Harassment,63,93,Online Harassment,Medium,IPC 509,"vasectomy"
+1099,"Your life is so worthless even death would reject you.",Harassment,66,94,Online Harassment,Medium,IPC 509,"death reject"
+1100,"You're so pathetic your suicide would be ruled an assisted death.",Harassment,68,95,Online Harassment,Medium,IPC 509,"suicide"
+1101,"I hope you get your limbs fed to pigs while you're still attached.",High-Risk Threat,99,99,Criminal Threat,Critical,IPC 506,"limbs to pigs"
+1102,"You're the human equivalent of a used condom found in a dumpster.",Harassment,69,95,Online Harassment,Medium,IPC 509,"used condom"
+1103,"Your existence makes the devil feel sorry for hell.",Harassment,61,93,Online Harassment,Medium,IPC 509,"devil, hell"
+1104,"You're so ugly when you were born the doctor slapped your mother.",Harassment,57,91,Online Harassment,Medium,IPC 509,"ugly"
+1105,"I hope you get disemboweled and forced to watch your organs burn.",High-Risk Threat,99,99,Criminal Threat,Critical,IPC 506,"disemboweled, organs burn"
+1106,"You're the reason some countries have honor killings.",Harassment,60,92,Online Harassment,Medium,IPC 509,"honor killings"
+1107,"Your face is why some people believe in spontaneous human combustion.",Harassment,64,94,Online Harassment,Medium,IPC 509,"face, combustion"
+1108,"You're so worthless even your shadow refuses to follow you.",Harassment,55,90,Online Harassment,Medium,IPC 509,"worthless, shadow"
+1109,"I hope you get slowly dissolved in industrial acid while conscious.",High-Risk Threat,99,99,Criminal Threat,Critical,IPC 506,"dissolved in acid"
+1110,"You're the human version of a porta-potty at a chili festival.",Harassment,67,95,Online Harassment,Medium,IPC 509,"porta-potty"
+1111,"Your birth was a crime that should have received the death penalty.",Harassment,62,93,Online Harassment,Medium,IPC 509,"crime, death penalty"
+1112,"You're so stupid you could lose a game of hide and seek with yourself.",Harassment,51,89,Online Harassment,Low,IPC 509,"stupid"
+1113,"I hope you get your eyes sewn shut and left in a pit of snakes.",High-Risk Threat,98,99,Criminal Threat,Critical,IPC 506,"eyes sewn, snakes"
+1114,"You're the reason some people support euthanasia for the living.",Harassment,65,94,Online Harassment,Medium,IPC 509,"euthanasia"
+1115,"Your life is so pathetic even your suicide attempt would fail.",Harassment,68,95,Online Harassment,Medium,IPC 509,"suicide attempt"
+1116,"You're so disgusting even your own reflection avoids looking at you.",Harassment,66,94,Online Harassment,Medium,IPC 509,"disgusting, reflection"
+1117,"I hope you get crucified and left for crows to eat your eyes first.",High-Risk Threat,99,99,Criminal Threat,Critical,IPC 506,"crucified, crows"
+1118,"You're the human equivalent of a used diaper floating in a sewer.",Harassment,69,95,Online Harassment,Medium,IPC 509,"used diaper"
+1119,"Your parents should have used the coat hanger method.",Harassment,67,95,Online Harassment,Medium,IPC 509,"coat hanger"
+1120,"You're so ugly even your shadow gets scared and runs away.",Harassment,60,92,Online Harassment,Medium,IPC 509,"ugly, shadow"
+1121,"I hope you get slowly fed into a woodchipper starting with your feet.",High-Risk Threat,99,99,Criminal Threat,Critical,IPC 506,"woodchipper"
+1122,"You're the reason some animals practice infanticide.",Harassment,62,93,Online Harassment,Medium,IPC 509,"infanticide"
+1123,"Your face is why some people believe in possession.",Harassment,58,91,Online Harassment,Medium,IPC 509,"face, possession"
+1124,"You're so worthless even your grave would be an improvement.",Harassment,55,90,Online Harassment,Medium,IPC 509,"worthless, grave"
+1125,"I hope you get your tongue ripped out and used as a noose.",High-Risk Threat,98,99,Criminal Threat,Critical,IPC 506,"tongue ripped, noose"
+1126,"You're the human version of a rotting corpse left in a hot car.",Harassment,68,95,Online Harassment,Medium,IPC 509,"rotting corpse"
+1127,"Your existence is proof that some abortions should be retroactive.",Harassment,67,95,Online Harassment,Medium,IPC 509,"retroactive abortion"
+1128,"You're so stupid you think a quarterback is a refund.",Harassment,50,88,Online Harassment,Low,IPC 509,"stupid"
+1129,"I hope you get your skin peeled off while still alive and screaming.",High-Risk Threat,99,99,Criminal Threat,Critical,IPC 506,"skin peeled"
+1130,"You're the reason some people support mandatory sterilization programs.",Harassment,66,94,Online Harassment,Medium,IPC 509,"sterilization"
+1131,"Your life is so pathetic even your depression has given up on you.",Harassment,64,94,Online Harassment,Medium,IPC 509,"depression"
+1132,"You're so disgusting even your own mother would abandon you again.",Harassment,69,95,Online Harassment,Medium,IPC 509,"disgusting, abandon"
+1133,"I hope you get slowly crushed by a hydraulic press while your family watches.",High-Risk Threat,99,99,Criminal Threat,Critical,IPC 506,"crushed, family watches"
+1134,"You're the human equivalent of a used sanitary pad found in a dumpster.",Harassment,70,95,Online Harassment,Medium,IPC 509,"sanitary pad"
+1135,"Your birth was humanity's greatest tragedy.",Harassment,63,93,Online Harassment,Medium,IPC 509,"tragedy"
+1136,"You're so ugly even your reflection files a restraining order.",Harassment,61,93,Online Harassment,Medium,IPC 509,"ugly, reflection"
+1137,"I hope you get your limbs slowly torn off while you're conscious.",High-Risk Threat,99,99,Criminal Threat,Critical,IPC 506,"limbs torn"
+1138,"You're the reason some countries have honor killings for people like you.",Harassment,65,94,Online Harassment,Medium,IPC 509,"honor killings"
+1139,"Your face is why some people believe in spontaneous combustion.",Harassment,62,93,Online Harassment,Medium,IPC 509,"face, combustion"
+1140,"You're so worthless even your suicide would be considered a public service.",Harassment,68,95,Online Harassment,Medium,IPC 509,"suicide"
+1141,"I hope you get dissolved in acid while your loved ones are forced to watch.",High-Risk Threat,99,99,Criminal Threat,Critical,IPC 506,"dissolved in acid"
+1142,"You're the human version of a porta-potty at a diarrhea convention.",Harassment,70,95,Online Harassment,Medium,IPC 509,"porta-potty"
+1143,"Your parents should have used the morning-after pill.",Harassment,64,94,Online Harassment,Medium,IPC 509,"morning-after"
+1144,"You're so ugly even your shadow leaves when the lights come on.",Harassment,59,92,Online Harassment,Medium,IPC 509,"ugly, shadow"
+1145,"I hope you get slowly fed your own organs while still breathing.",High-Risk Threat,99,99,Criminal Threat,Critical,IPC 506,"fed your own organs"
+1146,"You're the reason some animals eat their young at birth.",Harassment,63,93,Online Harassment,Medium,IPC 509,"eat their young"
+1147,"Your existence is an insult to every aborted fetus that had better timing.",Harassment,67,95,Online Harassment,Medium,IPC 509,"aborted fetus"
+1148,"You're so pathetic even your suicide note would need an editor.",Harassment,66,94,Online Harassment,Medium,IPC 509,"suicide note"
+1149,"I hope you get your eyes gouged out and forced to eat them raw.",High-Risk Threat,99,99,Criminal Threat,Critical,IPC 506,"eyes gouged, eat them"
+1150,"You're the human equivalent of a used condom floating in a sewer.",Harassment,70,95,Online Harassment,Medium,IPC 509,"used condom"
+1151,"You're the most pathetic, brain-dead motherfucker I've ever laid eyes on.",Harassment,68,94,Online Harassment,Medium,IPC 509,"pathetic, motherfucker"
+1152,"Die screaming you worthless, cum-guzzling fucker.",High-Risk Threat,88,98,Criminal Threat,Critical,IPC 506,"die screaming, fucker"
+1153,"Your face makes me wanna puke, you disgusting shitfucker.",Harassment,70,95,Online Harassment,Medium,IPC 509,"disgusting, shitfucker"
+1154,"You're a walking cum-stain, you inbred cockfucker.",Harassment,72,96,Online Harassment,Medium,IPC 509,"cum-stain, cockfucker"
+1155,"I hope your whole family gets cancer and dies, you filthy fucker.",High-Risk Threat,92,99,Criminal Threat,Critical,IPC 506,"cancer, dies, fucker"
+1156,"Even maggots would rather starve than eat your rotten corpse, fucker.",Harassment,74,96,Online Harassment,Medium,IPC 509,"rotten corpse, fucker"
+1157,"Kill yourself you useless, sister-fucking piece of garbage.",High-Risk Threat,94,99,Criminal Threat,Critical,IPC 506,"kill yourself, sister-fucking"
+1158,"Your mother should have swallowed you, you miserable little fucker.",Harassment,76,96,Online Harassment,Medium,IPC 509,"swallowed, fucker"
+1159,"You're the human version of a festering shit-pile, motherfucker.",Harassment,71,95,Online Harassment,Medium,IPC 509,"festering, motherfucker"
+1160,"Hope you get run over and bleed out slow, you pathetic fucker.",High-Risk Threat,90,98,Criminal Threat,Critical,IPC 506,"bleed out, fucker"
+1161,"You're a drooling, mouth-breathing, brainless fucker.",Harassment,69,94,Online Harassment,Medium,IPC 509,"brainless, fucker"
+1162,"Your face looks like a truck fucked it and left it for dead.",Harassment,73,96,Online Harassment,Medium,IPC 509,"face fucked"
+1163,"Every time you open your mouth an angel gets throat-fucked by Satan.",Harassment,75,96,Online Harassment,Medium,IPC 509,"throat-fucked"
+1164,"You're so ugly the condom factory sent your mom a sympathy card, fucker.",Harassment,70,95,Online Harassment,Medium,IPC 509,"ugly, fucker"
+1165,"Hope your dick rots off and you watch it fall, you sick fucker.",High-Risk Threat,93,99,Criminal Threat,Critical,IPC 506,"dick rots, fucker"
+1166,"You're the reason God invented abortion, you genetic fuck-up.",Harassment,72,95,Online Harassment,Medium,IPC 509,"genetic fuck-up"
+1167,"Your parents should have used a coat hanger, you worthless fucker.",Harassment,77,96,Online Harassment,Medium,IPC 509,"coat hanger, fucker"
+1168,"You're a living argument for retroactive abortion, cockfucker.",Harassment,74,96,Online Harassment,Medium,IPC 509,"retroactive abortion, cockfucker"
+1169,"Hope you choke on your own vomit and die in a pool of your shit, fucker.",High-Risk Threat,95,99,Criminal Threat,Critical,IPC 506,"choke, die in shit, fucker"
+1170,"Even your imaginary friends killed themselves because of you, fucker.",Harassment,65,94,Online Harassment,Medium,IPC 509,"imaginary friends, fucker"
+1171,"Your suicide note would be the most boring shit ever written, motherfucker.",Harassment,78,96,Online Harassment,Medium,IPC 509,"suicide note, motherfucker"
+1172,"You're a participation trophy made of dog shit and failure, fucker.",Harassment,71,95,Online Harassment,Medium,IPC 509,"dog shit, fucker"
+1173,"Hope you get ebola and your guts melt out your ass, you sick fucker.",High-Risk Threat,94,99,Criminal Threat,Critical,IPC 506,"ebola, guts melt, fucker"
+1174,"You're so fucking stupid you could fuck up a circle-jerk.",Harassment,68,94,Online Harassment,Medium,IPC 509,"stupid, fuck up"
+1175,"Your birth was a war crime against all living things, fucker.",Harassment,73,95,Online Harassment,Medium,IPC 509,"war crime, fucker"
+1176,"You're the reason they put instructions on shampoo, you brain-dead fucker.",Harassment,66,94,Online Harassment,Medium,IPC 509,"brain-dead fucker"
+1177,"Hope your kids inherit your ugly fucking face, you cunt-faced fucker.",Harassment,76,96,Online Harassment,Medium,IPC 509,"cunt-faced fucker"
+1178,"You're such a waste even taxidermists would burn you, motherfucker.",Harassment,70,95,Online Harassment,Medium,IPC 509,"waste, motherfucker"
+1179,"Your existence insults every fetus that got aborted, you shitfucker.",Harassment,74,96,Online Harassment,Medium,IPC 509,"shitfucker"
+1180,"Hope you get fed into a woodchipper feet-first while screaming, fucker.",High-Risk Threat,96,99,Criminal Threat,Critical,IPC 506,"woodchipper, fucker"
+1181,"You're the reason God created the middle finger, you cunt.",Harassment,64,94,Online Harassment,Medium,IPC 509,"cunt"
+1182,"Your mom should have swallowed, but she was too stupid, fucker.",Harassment,75,96,Online Harassment,Medium,IPC 509,"swallowed, fucker"
+1183,"You're so ugly your reflection tried to commit suicide, motherfucker.",Harassment,71,95,Online Harassment,Medium,IPC 509,"reflection suicide, motherfucker"
+1184,"Hope you get gang-raped by rabid dogs and live to remember it, fucker.",High-Risk Threat,97,99,Criminal Threat,Critical,IPC 506,"gang-raped, fucker"
+1185,"You're period blood mixed with diarrhea and failure, you disgusting fuck.",Harassment,77,96,Online Harassment,Medium,IPC 509,"disgusting fuck"
+1186,"Your parents are brother and sister, right? Explains the fuck-up.",Harassment,72,95,Online Harassment,Medium,IPC 509,"fuck-up"
+1187,"You're so worthless even orphans pity you, you pathetic fucker.",Harassment,69,94,Online Harassment,Medium,IPC 509,"pathetic fucker"
+1188,"Hope you get tortured for decades before they finally mercy-kill you, fucker.",High-Risk Threat,98,99,Criminal Threat,Critical,IPC 506,"tortured, fucker"
+1189,"You're the reason animals sometimes eat their young, motherfucker.",Harassment,73,95,Online Harassment,Medium,IPC 509,"eat their young, motherfucker"
+1190,"Your life is proof natural selection sometimes takes a fucking smoke break.",Harassment,70,95,Online Harassment,Medium,IPC 509,"natural selection"
+1191,"You're so disgusting even STDs file for divorce, you diseased fucker.",Harassment,76,96,Online Harassment,Medium,IPC 509,"diseased fucker"
+1192,"Hope your cock falls off and your mom uses it as a fucking toothpick.",High-Risk Threat,94,99,Criminal Threat,Critical,IPC 506,"cock falls off, fucker"
+1193,"You're a cum-rag left in a hot car for a month, you filthy fuck.",Harassment,78,96,Online Harassment,Medium,IPC 509,"cum-rag, filthy fuck"
+1194,"Your face looks like God took a shit and forgot to flush, fucker.",Harassment,72,95,Online Harassment,Medium,IPC 509,"God took a shit, fucker"
+1195,"You're so stupid you could fuck up breathing, you brainless fucker.",Harassment,67,94,Online Harassment,Medium,IPC 509,"brainless fucker"
+1196,"Hope you die alone surrounded by people who fucking hate you.",High-Risk Threat,93,99,Criminal Threat,Critical,IPC 506,"die alone, hate"
+1197,"You're the reason warning labels exist, you dangerous fucker.",Harassment,65,94,Online Harassment,Medium,IPC 509,"dangerous fucker"
+1198,"Your birth was a medical fuck-up that somehow survived.",Harassment,74,96,Online Harassment,Medium,IPC 509,"medical fuck-up"
+1199,"Hope you get skinned alive and forced to watch, you screaming fucker.",High-Risk Threat,99,99,Criminal Threat,Critical,IPC 506,"skinned alive, fucker"
+1200,"You're so ugly blind people run screaming when you get close, motherfucker.",Harassment,70,95,Online Harassment,Medium,IPC 509,"ugly, motherfucker"
