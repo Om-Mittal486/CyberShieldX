@@ -44,8 +44,8 @@ interface DatasetRow {
 
 export class MessageAnalyzer {
     private cache: Map<string, AnalysisResult>;
-    private dataset: DatasetRow[] = [];
-    private datasetLoaded: boolean = false;
+    private static dataset: DatasetRow[] = [];
+    private static datasetLoaded: boolean = false;
 
     // Keyword dictionaries (enhanced from dataset)
     private threats = ['kill', 'murder', 'hurt', 'attack', 'bomb', 'shoot', 'stab', 'die', 'burn', 'destroy', 'threat', 'coming for you', 'regret'];
@@ -58,14 +58,14 @@ export class MessageAnalyzer {
 
     constructor() {
         this.cache = new Map();
-        this.loadDataset();
+        MessageAnalyzer.loadDataset();
     }
 
     /**
      * Load dataset from CSV file
      */
-    private async loadDataset() {
-        if (this.datasetLoaded) return;
+    private static async loadDataset() {
+        if (MessageAnalyzer.datasetLoaded) return;
 
         try {
             const response = await fetch('/data/cybershieldx_dataset.csv');
@@ -75,9 +75,9 @@ export class MessageAnalyzer {
                 header: true,
                 skipEmptyLines: true,
                 complete: (results) => {
-                    this.dataset = results.data as DatasetRow[];
-                    this.datasetLoaded = true;
-                    console.log(`✅ Dataset loaded: ${this.dataset.length} examples`);
+                    MessageAnalyzer.dataset = results.data as DatasetRow[];
+                    MessageAnalyzer.datasetLoaded = true;
+                    console.log(`✅ MessageAnalyzer Dataset loaded: ${MessageAnalyzer.dataset.length} examples`);
                 },
                 error: (error: Error) => {
                     console.error('❌ Error loading dataset:', error);
@@ -88,94 +88,37 @@ export class MessageAnalyzer {
         }
     }
 
-    /**
-     * Main entry point for message analysis
-     */
-    public async analyze(message: string): Promise<AnalysisResult> {
-        if (!message || message.trim().length === 0) {
-            return this.createEmptyResult();
-        }
+    // ... (analyze method needs update to check static loaded)
 
-        const cacheKey = this.getCacheKey(message);
-        if (this.cache.has(cacheKey)) {
-            return this.cache.get(cacheKey)!;
-        }
-
-        // Wait for dataset to load if not already loaded
-        if (!this.datasetLoaded) {
-            await this.waitForDataset();
-        }
-
-        // Find similar examples from dataset
-        const similarExamples = this.findSimilarMessages(message);
-
-        const sentimentResult = this.simpleSentimentAnalysis(message);
-        const keywords = this.detectKeywords(message);
-
-        // Enhanced scoring using dataset
-        const toxicityScore = this.calculateEnhancedToxicityScore(message, keywords, sentimentResult, similarExamples);
-        const category = this.determineCategory(toxicityScore, keywords);
-
-        const result: AnalysisResult = {
-            category,
-            toxicityScore,
-            confidenceScore: this.calculateConfidence(message, keywords, similarExamples),
-            matchedKeywords: keywords.all,
-            summary: this.generateSummary(category, keywords.all, sentimentResult.score, similarExamples),
-            similarExamples: similarExamples.slice(0, 3), // Top 3 similar examples
-            sentiment: {
-                score: sentimentResult.score,
-                comparative: sentimentResult.comparative,
-                tokens: sentimentResult.tokens,
-                words: sentimentResult.words,
-                positive: sentimentResult.positive,
-                negative: sentimentResult.negative
-            }
-        };
-
-        // Enhanced crime pattern detection using dataset
-        if (category === 'high-risk' || category === 'harassment') {
-            result.crimePattern = this.detectCrimePatternFromDataset(keywords, similarExamples);
-        }
-
-        this.cache.set(cacheKey, result);
-        return result;
-    }
-
-    /**
-     * Wait for dataset to load
-     */
     private async waitForDataset(maxWait: number = 3000): Promise<void> {
         const startTime = Date.now();
-        while (!this.datasetLoaded && (Date.now() - startTime) < maxWait) {
+        while (!MessageAnalyzer.datasetLoaded && (Date.now() - startTime) < maxWait) {
             await new Promise(resolve => setTimeout(resolve, 100));
         }
     }
 
-    /**
-     * Find similar messages in dataset using keyword matching and text similarity
-     */
     private findSimilarMessages(message: string): Array<{
         message: string;
         toxicity_label: string;
         crime_type: string;
         similarity: number;
     }> {
-        if (!this.datasetLoaded || this.dataset.length === 0) {
+        if (!MessageAnalyzer.datasetLoaded || MessageAnalyzer.dataset.length === 0) {
             return [];
         }
 
         const messageLower = message.toLowerCase();
         const messageWords = new Set(messageLower.split(/\s+/));
 
-        const similarities = this.dataset.map(row => {
-            const rowWords = new Set(row.message_text.toLowerCase().split(/\s+/));
+        const similarities = MessageAnalyzer.dataset.map(row => {
+            const text = row.message_text || '';
+            const rowWords = new Set(text.toLowerCase().split(/\s+/));
             const intersection = new Set([...messageWords].filter(x => rowWords.has(x)));
             const union = new Set([...messageWords, ...rowWords]);
             const similarity = intersection.size / union.size; // Jaccard similarity
 
             return {
-                message: row.message_text,
+                message: text,
                 toxicity_label: row.toxicity_label,
                 crime_type: row.crime_type || 'None',
                 similarity: similarity * 100

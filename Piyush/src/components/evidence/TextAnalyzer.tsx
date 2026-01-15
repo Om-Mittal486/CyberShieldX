@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import { FileText, Loader2, AlertCircle, CheckCircle2, Database } from 'lucide-react';
+import { FileText, Loader2, AlertCircle, CheckCircle2 } from 'lucide-react';
 import { MessageAnalyzer } from '@/lib/analyzer/MessageAnalyzer';
 import { PatternDetector } from '@/lib/crime/PatternDetector';
 import { Evidence } from '@/types';
@@ -192,44 +192,7 @@ export default function TextAnalyzer({ onAnalysisComplete }: TextAnalyzerProps) 
                         </div>
                     )}
 
-                    {/* Dataset Matches */}
-                    {datasetMatches.length > 0 && (
-                        <div>
-                            <div className="flex items-center gap-2 mb-2">
-                                <Database className="w-4 h-4 text-[var(--accent)]" />
-                                <div className="text-sm text-gray-400">Similar Messages from Dataset:</div>
-                            </div>
-                            <div className="space-y-2">
-                                {datasetMatches.map((match: DatasetEntry, idx: number) => (
-                                    <div
-                                        key={idx}
-                                        className="bg-black/50 border border-[var(--accent)]/30 rounded-lg p-3"
-                                    >
-                                        <div className="text-sm text-white mb-1">
-                                            "{(match.message_text || match.message || match.text || '').substring(0, 100)}"
-                                        </div>
-                                        <div className="flex items-center gap-3 text-xs">
-                                            {match.toxicity_label && (
-                                                <span className="text-[var(--accent)]">
-                                                    {match.toxicity_label}
-                                                </span>
-                                            )}
-                                            {match.crime_type && match.crime_type !== 'None' && (
-                                                <span className="text-orange-400">
-                                                    {match.crime_type}
-                                                </span>
-                                            )}
-                                            {match.severity_level && match.severity_level !== 'None' && (
-                                                <span className="text-red-400">
-                                                    Severity: {match.severity_level}
-                                                </span>
-                                            )}
-                                        </div>
-                                    </div>
-                                ))}
-                            </div>
-                        </div>
-                    )}
+
 
                     {/* Summary */}
                     <div className="bg-blue-500/10 border border-blue-500/30 rounded-lg p-4">
