@@ -99,8 +99,12 @@ export default function TextAnalyzer({ onAnalysisComplete }: TextAnalyzerProps) 
                 />
 
                 <div className="flex items-center justify-between mt-6">
-                    <span className="text-sm text-[var(--text-secondary)] font-mono">
-                        {text.length} characters
+                    <span className="text-sm text-[var(--text-secondary)] font-mono flex items-center gap-4">
+                        <span>{text.length} characters</span>
+                        <span className={`flex items-center gap-1.5 ${dataset.length > 0 ? 'text-[#00ff41]' : 'text-red-500'}`}>
+                            <span className={`w-2 h-2 rounded-full ${dataset.length > 0 ? 'bg-[#00ff41] animate-pulse' : 'bg-red-500'}`}></span>
+                            {dataset.length > 0 ? `Database Active (${dataset.length} records)` : 'Database Disconnected'}
+                        </span>
                     </span>
 
                     <button
@@ -208,6 +212,23 @@ export default function TextAnalyzer({ onAnalysisComplete }: TextAnalyzerProps) 
                     <div className="text-xs text-gray-500 text-center pt-2">
                         Results have been sent to the Investigation Assistant. Switch to the "Active Investigation" tab to view detailed recommendations.
                     </div>
+
+                    {/* Dataset Match Verification (Debug/Proof) */}
+                    {datasetMatches.length > 0 && (
+                        <div className="mt-4 pt-4 border-t border-white/10">
+                            <div className="text-xs text-gray-400 mb-2 uppercase tracking-wider">Database Match Verification</div>
+                            <div className="bg-zinc-800/50 rounded-lg p-3 border border-white/5">
+                                <div className="flex justify-between items-center mb-1">
+                                    <span className="text-xs text-[#00ff41] font-mono">Top Match Found</span>
+                                    <span className="text-xs text-gray-400">{(datasetMatches[0] as any).score?.toFixed(1) || '0'}% Similarity</span>
+                                </div>
+                                <p className="text-sm text-gray-300 italic">"{datasetMatches[0].message_text || datasetMatches[0].message}"</p>
+                                <div className="mt-1 text-xs text-gray-500">
+                                    Source: CybershieldX Dataset | Label: {datasetMatches[0].toxicity_label}
+                                </div>
+                            </div>
+                        </div>
+                    )}
                 </div>
             )}
         </div>

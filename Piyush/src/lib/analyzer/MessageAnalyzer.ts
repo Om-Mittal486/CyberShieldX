@@ -65,10 +65,32 @@ export class MessageAnalyzer {
      * Load dataset from CSV file
      */
     private static async loadDataset() {
-        if (MessageAnalyzer.datasetLoaded) return;
+        if (MessageAnalyzer.datasetLoaded) {
+            console.log('MessageAnalyzer: Dataset already loaded.');
+            return;
+        }
+
+        console.log('MessageAnalyzer: Loading dataset...');
 
         try {
-            const response = await fetch('/data/cybershieldx_dataset.csv');
+            // Construct URL - handle server vs client
+            let url = '/data/cybershieldx_dataset.csv';
+
+            if (typeof window === 'undefined') {
+                // Server-side: Try to use absolute URL if available, otherwise this might fail in strict fetch envs
+                // However, Next.js 'fetch' often handles relative paths in API routes depending on config.
+                // Best effort for server:
+                const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000';
+                url = `${baseUrl}${url}`;
+            }
+
+            console.log(`MessageAnalyzer: Fetching from ${url}`);
+            const response = await fetch(url);
+
+            if (!response.ok) {
+                throw new Error(`Failed to fetch dataset: ${response.status} ${response.statusText}`);
+            }
+
             const csvText = await response.text();
 
             Papa.parse(csvText, {
@@ -77,14 +99,14 @@ export class MessageAnalyzer {
                 complete: (results) => {
                     MessageAnalyzer.dataset = results.data as DatasetRow[];
                     MessageAnalyzer.datasetLoaded = true;
-                    console.log(`✅ MessageAnalyzer Dataset loaded: ${MessageAnalyzer.dataset.length} examples`);
+                    console.log(`✅ MessageAnalyzer Dataset loaded successfully: ${MessageAnalyzer.dataset.length} examples`);
                 },
                 error: (error: Error) => {
-                    console.error('❌ Error loading dataset:', error);
+                    console.error('❌ Error parsing dataset CSV:', error);
                 }
             });
         } catch (error) {
-            console.error('❌ Failed to fetch dataset:', error);
+            console.error('❌ Failed to load dataset:', error);
         }
     }
 
@@ -97,12 +119,61 @@ export class MessageAnalyzer {
         }
     }
 
+    public async analyze(message: string): Promise<AnalysisResult> {
+        console.log(`MessageAnalyzer: Analyzing message: "${message.substring(0, 20)}..."`);
+
+        if (!message || message.trim().length === 0) {
+            return this.createEmptyResult();
+        }
+
+        const cacheKey = this.getCacheKey(message);
+        if (this.cache.has(cacheKey)) {
+            console.log('MessageAnalyzer: Returning cached result');
+            return this.cache.get(cacheKey)!;
+        }
+
+        // Wait for dataset to load if not already loaded
+        if (!MessageAnalyzer.datasetLoaded) {
+            console.log('MessageAnalyzer: Dataset not loaded yet, waiting...');
+            await this.waitForDataset();
+            console.log('MessageAnalyzer: Finished waiting for dataset. Loaded:', MessageAnalyzer.datasetLoaded);
+        }
+
+        // Find similar examples from dataset
+        console.log('MessageAnalyzer: Finding similar examples...');
+        const similarExamples = this.findSimilarMessages(message);
+        console.log(`MessageAnalyzer: Found ${similarExamples.length} similar examples.`);
+
+        const detectedKeywords = this.detectKeywords(message);
+        const sentiment = this.simpleSentimentAnalysis(message);
+        const toxicityScore = this.calculateEnhancedToxicityScore(message, detectedKeywords, sentiment, similarExamples);
+        const category = this.determineCategory(toxicityScore, detectedKeywords);
+        const crimePattern = this.detectCrimePatternFromDataset(detectedKeywords, similarExamples);
+        const confidenceScore = this.calculateConfidence(message, detectedKeywords, similarExamples);
+        const summary = this.generateSummary(category, detectedKeywords.all, sentiment.score, similarExamples);
+
+        const result: AnalysisResult = {
+            category,
+            toxicityScore: Math.round(toxicityScore),
+            confidenceScore: Math.round(confidenceScore),
+            matchedKeywords: detectedKeywords.all,
+            summary,
+            crimePattern,
+            similarExamples: similarExamples.length > 0 ? similarExamples : undefined,
+            sentiment
+        };
+
+        this.cache.set(cacheKey, result);
+        return result;
+    }
+
     private findSimilarMessages(message: string): Array<{
         message: string;
         toxicity_label: string;
         crime_type: string;
         similarity: number;
     }> {
+        console.log('MessageAnalyzer: Starting findSimilarMessages...');
         if (!MessageAnalyzer.datasetLoaded || MessageAnalyzer.dataset.length === 0) {
             return [];
         }
