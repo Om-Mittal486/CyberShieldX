@@ -20,7 +20,7 @@ export async function loadDataset(): Promise<DatasetEntry[]> {
     }
 
     try {
-        const response = await fetch('/data/dataset.csv');
+        const response = await fetch('/data/cybershieldx_dataset.csv');
         if (!response.ok) {
             console.warn('Dataset not found, using empty dataset');
             return [];
@@ -55,6 +55,7 @@ export function findSimilarMessages(inputText: string, dataset: DatasetEntry[]):
     dataset.forEach(entry => {
         // Get the message text from various possible column names
         const messageText = (
+            entry.message_text || // Added for cybershieldx_dataset.csv
             entry.message ||
             entry.text ||
             entry.content ||
@@ -107,7 +108,7 @@ export function extractKeywordsFromDataset(dataset: DatasetEntry[]): string[] {
         }
 
         // Extract from message text
-        const messageText = entry.message || entry.text || entry.content || '';
+        const messageText = entry.message_text || entry.message || entry.text || entry.content || '';
         const words = messageText.toLowerCase().match(/\b\w{4,}\b/g) || [];
 
         // Add significant words (length > 3)
