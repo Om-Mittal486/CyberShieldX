@@ -1,7 +1,0 @@
-node_modules/
-.next/
-__pycache__/
-*.env
-.DS_Store
-.venv/
-*.pyc
